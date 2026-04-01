@@ -9,6 +9,8 @@ FROM golang:1.26-bookworm AS builder
 RUN git config --global url."https://github.com/seikaikyo/go-factory-io".insteadOf "https://github.com/dashfactory/go-factory-io"
 
 ENV GONOSUMCHECK=github.com/dashfactory/go-factory-io
+ENV GONOPROXY=github.com/dashfactory/go-factory-io
+ENV GONOSUMDB=github.com/dashfactory/go-factory-io
 ENV GOFLAGS=-mod=mod
 
 WORKDIR /app

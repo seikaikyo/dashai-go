@@ -9,12 +9,25 @@ on:
 jobs:
   build-and-test:
     runs-on: ubuntu-latest
+    env:
+      GONOSUMCHECK: github.com/dashfactory/go-factory-io
+      GONOPROXY: github.com/dashfactory/go-factory-io
+      GONOSUMDB: github.com/dashfactory/go-factory-io
     steps:
       - uses: actions/checkout@v4
 
       - uses: actions/setup-go@v5
         with:
           go-version: '1.26'
+
+      - name: Configure git redirect for go-factory-io
+        run: git config --global url."https://github.com/seikaikyo/go-factory-io".insteadOf "https://github.com/dashfactory/go-factory-io"
+
+      - name: Remove local replace directive
+        run: sed -i '/^replace.*go-factory-io/d' go.mod
+
+      - name: Tidy modules
+        run: go mod tidy
 
       - name: Build
         run: go build ./cmd/server/
