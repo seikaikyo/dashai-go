@@ -16,6 +16,7 @@ import (
 	"github.com/seikaikyo/dashai-go/internal/config"
 	"github.com/seikaikyo/dashai-go/internal/database"
 	"github.com/seikaikyo/dashai-go/internal/demo"
+	"github.com/seikaikyo/dashai-go/internal/factory"
 	"github.com/seikaikyo/dashai-go/internal/middleware"
 	"github.com/seikaikyo/dashai-go/internal/response"
 )
@@ -74,12 +75,22 @@ func main() {
 		response.OK(w, map[string]any{
 			"app":      "DashAI Go Gateway",
 			"version":  version,
-			"services": []string{"/demo"},
+			"services": []string{"/demo", "/factory", "/edge"},
 		})
 	})
 
 	// Mount sub-modules
 	r.Mount("/demo", demo.Router(cfg, db))
+	r.Mount("/factory", factory.Router(context.Background()))
+
+	// Edge placeholder (Phase 1 will add full registration + heartbeat API)
+	r.Get("/edge/status", func(w http.ResponseWriter, r *http.Request) {
+		response.OK(w, map[string]any{
+			"module":  "edge",
+			"status":  "planned",
+			"message": "Edge registration API — Phase 1",
+		})
+	})
 
 	// Server
 	addr := fmt.Sprintf(":%d", cfg.Port)
