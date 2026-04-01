@@ -11,73 +11,47 @@ dashai-go 從單純的 REST API gateway 升級為工廠分散式系統的 cloud 
 搭配 go-edge-gateway (edge agent) 和 go-ot-security (security agent) 形成完整的
 工廠 IoT + 資安平台。
 
-## 前置作業：Render 部署 (Phase 0)
+## 前置作業：Render 部署 (Phase 0) — COMPLETED 2026-04-01
 
-Go 1.26 Docker image 已上架，三個專案可以部署。
+**架構決策變更：** 不獨立部署三個服務，改為全部整合進 dashai-go 一個 Render service（同 dashai-api 路由前綴模式）。
 
-### dashai-go (已有 render.yaml)
+### dashai-go (唯一 Render service)
 
 | 項目 | 值 |
 |------|---|
 | Repo | github.com/seikaikyo/dashai-go |
-| Render Service | srv-d76ao27fte5s73efs92g (已暫停) |
-| Plan | Starter → 功能驗證後降 Hobby |
+| Render Service | srv-d76ao27fte5s73efs92g |
+| Plan | Starter |
 | Port | 8101 |
 | Region | Singapore |
-| Build | `go build -ldflags="-s -w" -o server ./cmd/server/` |
+| Runtime | Docker |
 | Health | `/health` |
 | DB | Neon PostgreSQL (patient-cell-76478954, Singapore) |
+| URL | https://dashai-go.onrender.com |
 
-**步驟：**
-1. `cd ~/github/dashai-go && git push` (有 1 筆未 push commit)
-2. Render Dashboard → Resume service → Enable auto deploy
-3. 手動 trigger deploy 或等 webhook
-4. `curl https://dashai-go.onrender.com/health` 驗證
+**路由前綴：**
+| 路徑 | 來源 | 狀態 |
+|------|------|------|
+| `/demo` | dashai-go 內建 | live |
+| `/factory` | go-factory-io Studio (embedded) | live |
+| `/edge` | go-edge-gateway API (Phase 1) | placeholder |
 
-### go-edge-gateway (新建 Render service)
+**go-factory-io 整合方式：**
+- dashai-go go.mod 加 `github.com/dashfactory/go-factory-io v1.0.0` + local replace
+- Dockerfile 用 `git config insteadOf` + `GONOPROXY` 繞過 module path 不匹配
+- `internal/factory/router.go` 初始化 Studio server + embedded simulator
 
-| 項目 | 值 |
-|------|---|
-| Repo | github.com/seikaikyo/go-edge-gateway |
-| Plan | Starter → 降 Hobby |
-| Port | 8080 |
-| Region | Singapore |
-| Runtime | Docker (Dockerfile 已有) |
-| Mode | Demo mode (無實體設備，模擬資料) |
+### go-edge-gateway / go-factory-io (獨立 repo，不獨立部署)
 
-**問題：** Dockerfile 用 `replace` directive 引用 go-factory-io 本地路徑。
-部署前需改為 GitHub module path。
-
-**步驟：**
-1. go.mod 移除 `replace` directive，改用 GitHub tag/commit
-2. go-factory-io 先 push tag (v0.1.0)
-3. edge-gateway `go mod tidy` 確認能拉到
-4. 新增 render.yaml
-5. 加入 demo config (edge-gateway.demo.yaml) — 不連實體設備，走模擬
-6. Render Dashboard → New Web Service → 連 GitHub repo
-7. 驗證 health endpoint
-
-### go-factory-io (新建 Render service)
-
-| 項目 | 值 |
-|------|---|
-| Repo | github.com/seikaikyo/go-factory-io (org: dashfactory) |
-| Plan | Starter → 降 Hobby |
-| Port | 10000 |
-| Region | Singapore |
-| Runtime | Docker (Dockerfile 已有) |
-| Command | `secsgem studio --port 10000` |
-
-**步驟：**
-1. Render Dashboard → New Web Service → Docker
-2. 環境變數: PORT=10000
-3. 驗證 Studio UI 可存取
+保持為獨立 repo + Go module，被 dashai-go import。
+各自的 render.yaml / Dockerfile 保留供本地開發和未來獨立部署。
 
 ### Phase 0 完成標準
-- [ ] dashai-go `/health` 回 200
-- [ ] go-edge-gateway `/health` 回 200
-- [ ] go-factory-io Studio UI 可開啟
-- [ ] 三個都跑在 Starter plan
+- [x] dashai-go `/health` 回 200
+- [x] `/factory/api/status` 回 SECS/GEM Studio 狀態 (connected + embedded)
+- [x] `/factory/` 回 200 (Studio UI)
+- [x] `/edge/status` 回 placeholder
+- [x] Starter plan, Singapore region
 - [ ] UptimeRobot 加入監控
 
 ---
