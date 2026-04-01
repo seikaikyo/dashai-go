@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: dashai-go
+    runtime: go
+    region: singapore
+    plan: starter
+    branch: main
+    buildCommand: go build -ldflags="-s -w" -o server ./cmd/server/
+    startCommand: ./server
+    healthCheckPath: /health
+    envVars:
+      - key: GO_VERSION
+        value: 1.26.1
