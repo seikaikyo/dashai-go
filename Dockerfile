@@ -11,18 +11,18 @@ RUN git config --global url."https://github.com/seikaikyo/go-factory-io".instead
 ENV GONOSUMCHECK=github.com/dashfactory/go-factory-io
 ENV GONOPROXY=github.com/dashfactory/go-factory-io
 ENV GONOSUMDB=github.com/dashfactory/go-factory-io
+ENV GONOSUMDB=github.com/dashfactory/go-factory-io
 ENV GOFLAGS=-mod=mod
 
 WORKDIR /app
-COPY go.mod go.sum ./
-
-# Remove local replace directive for Docker build
-RUN sed -i '/^replace.*go-factory-io/d' go.mod
-RUN go mod tidy && go mod download
-
 COPY . .
+
+# Remove local replace directive and resolve remote module
+RUN sed -i '/^replace.*go-factory-io/d' go.mod
+RUN go mod tidy
 RUN CGO_ENABLED=0 go build -ldflags="-s -w" -o server ./cmd/server/
 
+# --- Production image ---
 FROM debian:bookworm-slim
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates tzdata && rm -rf /var/lib/apt/lists/*
 WORKDIR /app
