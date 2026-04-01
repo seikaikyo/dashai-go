@@ -15,7 +15,11 @@ dashai-go/
 │   │   └── auth/jwt.go             # Logto JWT (shared, per-module opt-in)
 │   ├── database/database.go        # pgx connection pool (Neon PostgreSQL)
 │   ├── response/response.go        # {success, data, error} envelope
-│   └── demo/router.go              # Demo module (/demo)
+│   ├── demo/router.go              # Demo module (/demo)
+│   └── scanner/                    # Modbus register scanner (/scanner)
+│       ├── scanner.go              # Core scan logic (batch read, multi-sample)
+│       ├── analyzer.go             # Type inference, float32 pair, category guess
+│       └── router.go               # Async job API
 ├── Dockerfile
 ├── render.yaml
 └── go.mod
@@ -65,6 +69,11 @@ Port: 8101 (default)
 | `/demo/api/ping` | GET | Pong + timestamp |
 | `/demo/api/status` | GET | Module + DB status |
 | `/demo/api/protected` | GET | Requires Logto JWT |
+| `/scanner/api/scan` | POST | Full Modbus register scan (async) |
+| `/scanner/api/scan/quick` | POST | Quick scan (holding 0-999, 1 sample) |
+| `/scanner/api/read` | POST | Read specific registers |
+| `/scanner/api/jobs` | GET | List scan jobs |
+| `/scanner/api/jobs/{id}` | GET | Get scan job result |
 
 ## Deploy (Render)
 
