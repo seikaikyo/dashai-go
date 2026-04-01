@@ -66,11 +66,16 @@ func (s *jobStore) list() []*Job {
 func Router() chi.Router {
 	r := chi.NewRouter()
 
+	// API endpoints
 	r.Post("/api/scan", handleScan)
 	r.Post("/api/scan/quick", handleQuickScan)
 	r.Post("/api/read", handleRead)
 	r.Get("/api/jobs", handleListJobs)
 	r.Get("/api/jobs/{id}", handleGetJob)
+
+	// Embedded frontend
+	r.HandleFunc("/*", staticHandler())
+	r.HandleFunc("/", staticHandler())
 
 	return r
 }

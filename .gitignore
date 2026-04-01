@@ -11,5 +11,9 @@
 .vscode/
 *.swp
 
+# Node
+node_modules/
+web/dist/
+
 # OS
 .DS_Store
