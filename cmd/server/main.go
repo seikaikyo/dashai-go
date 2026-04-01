@@ -17,6 +17,7 @@ import (
 	"github.com/seikaikyo/dashai-go/internal/database"
 	"github.com/seikaikyo/dashai-go/internal/demo"
 	"github.com/seikaikyo/dashai-go/internal/edge"
+	"github.com/seikaikyo/dashai-go/internal/events"
 	"github.com/seikaikyo/dashai-go/internal/factory"
 	"github.com/seikaikyo/dashai-go/internal/middleware"
 	"github.com/seikaikyo/dashai-go/internal/response"
@@ -80,7 +81,7 @@ func main() {
 		response.OK(w, map[string]any{
 			"app":      "DashAI Go Gateway",
 			"version":  version,
-			"services": []string{"/demo", "/factory", "/edge"},
+			"services": []string{"/demo", "/factory", "/edge", "/events"},
 		})
 	})
 
@@ -90,6 +91,9 @@ func main() {
 
 	// Edge node registration, heartbeat, monitoring
 	r.Mount("/edge", edge.Router(db))
+
+	// Event ingestion, querying, streaming
+	r.Mount("/events", events.Router(db))
 	if db != nil {
 		go edge.StartMonitor(appCtx, db, slog.Default())
 	}
