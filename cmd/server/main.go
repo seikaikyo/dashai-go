@@ -22,6 +22,7 @@ import (
 	"github.com/seikaikyo/dashai-go/internal/middleware"
 	"github.com/seikaikyo/dashai-go/internal/response"
 	"github.com/seikaikyo/dashai-go/internal/security"
+	"github.com/seikaikyo/dashai-go/internal/web"
 )
 
 var version = "0.1.0"
@@ -82,7 +83,7 @@ func main() {
 		response.OK(w, map[string]any{
 			"app":      "DashAI Go Gateway",
 			"version":  version,
-			"services": []string{"/demo", "/factory", "/edge", "/events", "/security"},
+			"services": []string{"/demo", "/factory", "/edge", "/events", "/security", "/dashboard"},
 		})
 	})
 
@@ -98,6 +99,9 @@ func main() {
 
 	// OT security scan report aggregation
 	r.Mount("/security", security.Router(db))
+
+	// Embedded dashboard UI
+	r.Mount("/dashboard", http.StripPrefix("/dashboard", web.Handler()))
 	if db != nil {
 		go edge.StartMonitor(appCtx, db, slog.Default())
 	}
