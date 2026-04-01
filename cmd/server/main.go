@@ -18,7 +18,6 @@ import (
 	"github.com/seikaikyo/dashai-go/internal/demo"
 	"github.com/seikaikyo/dashai-go/internal/middleware"
 	"github.com/seikaikyo/dashai-go/internal/response"
-	"github.com/seikaikyo/dashai-go/internal/scanner"
 )
 
 var version = "0.1.0"
@@ -75,13 +74,12 @@ func main() {
 		response.OK(w, map[string]any{
 			"app":      "DashAI Go Gateway",
 			"version":  version,
-			"services": []string{"/demo", "/scanner"},
+			"services": []string{"/demo"},
 		})
 	})
 
 	// Mount sub-modules
 	r.Mount("/demo", demo.Router(cfg, db))
-	r.Mount("/scanner", scanner.Router())
 
 	// Server
 	addr := fmt.Sprintf(":%d", cfg.Port)
