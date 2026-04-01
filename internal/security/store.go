@@ -311,16 +311,21 @@ func (s *Store) GetDashboardData(ctx context.Context) (*Dashboard, error) {
 		dash.TotalOT += intFromAny(nd.summary["ot_devices"])
 		dash.TotalIT += intFromAny(nd.summary["it_devices"])
 
-		// compliance 分數平均
+		// compliance 分數平均（值為 {"passed":N,"total":N,"score":N} 結構）
 		for k, v := range nd.compliance {
-			if score, ok := toFloat64(v); ok {
+			if m, ok := v.(map[string]any); ok {
+				if score, ok := toFloat64(m["score"]); ok {
+					complianceSums[k] += score
+					complianceCounts[k]++
+				}
+			} else if score, ok := toFloat64(v); ok {
 				complianceSums[k] += score
 				complianceCounts[k]++
 			}
 		}
 
 		// 每節點摘要
-		critical := intFromAny(nd.summary["critical_findings"])
+		critical := intFromAny(nd.summary["critical_vulns"])
 		ns := NodeSummary{
 			NodeID:   nd.nodeID,
 			Location: nd.location,
