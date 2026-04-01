@@ -16,6 +16,7 @@ import (
 	"github.com/seikaikyo/dashai-go/internal/config"
 	"github.com/seikaikyo/dashai-go/internal/database"
 	"github.com/seikaikyo/dashai-go/internal/demo"
+	"github.com/seikaikyo/dashai-go/internal/edge"
 	"github.com/seikaikyo/dashai-go/internal/factory"
 	"github.com/seikaikyo/dashai-go/internal/middleware"
 	"github.com/seikaikyo/dashai-go/internal/response"
@@ -36,6 +37,10 @@ func main() {
 		level = slog.LevelDebug
 	}
 	slog.SetDefault(slog.New(slog.NewJSONHandler(os.Stdout, &slog.HandlerOptions{Level: level})))
+
+	// App context for background goroutines
+	appCtx, appCancel := context.WithCancel(context.Background())
+	defer appCancel()
 
 	// Database (optional)
 	var db *database.DB
@@ -83,14 +88,11 @@ func main() {
 	r.Mount("/demo", demo.Router(cfg, db))
 	r.Mount("/factory", factory.Router(context.Background()))
 
-	// Edge placeholder (Phase 1 will add full registration + heartbeat API)
-	r.Get("/edge/status", func(w http.ResponseWriter, r *http.Request) {
-		response.OK(w, map[string]any{
-			"module":  "edge",
-			"status":  "planned",
-			"message": "Edge registration API — Phase 1",
-		})
-	})
+	// Edge node registration, heartbeat, monitoring
+	r.Mount("/edge", edge.Router(db))
+	if db != nil {
+		go edge.StartMonitor(appCtx, db, slog.Default())
+	}
 
 	// Server
 	addr := fmt.Sprintf(":%d", cfg.Port)
@@ -116,6 +118,7 @@ func main() {
 
 	<-done
 	slog.Info("shutting down")
+	appCancel()
 
 	ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
 	defer cancel()
