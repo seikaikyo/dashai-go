@@ -1,0 +1,210 @@
+{
+  "fortune_categories": {
+    "career": {
+      "name": "Career",
+      "description": "Work performance, academic progress, and professional skill development (derived from Section 2 daily auspicious/inauspicious guidelines)"
+    },
+    "love": {
+      "name": "Love & Relationships",
+      "description": "Romantic relationships, interpersonal connections, and family harmony (derived from Section 2 daily auspicious/inauspicious guidelines)"
+    },
+    "health": {
+      "name": "Health",
+      "description": "Physical condition, mental well-being, and daily routines (derived from Section 2 daily auspicious/inauspicious guidelines)"
+    },
+    "wealth": {
+      "name": "Wealth",
+      "description": "Income, investments, and asset accumulation (derived from Section 2 daily auspicious/inauspicious guidelines)"
+    }
+  },
+  "daily_advice": {
+    "excellent": [
+      {
+        "text": "Eishin day:「宜入官拜職、對見大人」(T21 p.397c). Today favors bold moves -- interviews, proposals, meeting superiors, expanding your network. Action gets rewarded.",
+        "sutra_key": "ei",
+        "context": "daily"
+      },
+      {
+        "text": "Shin day:「宜結交、歡宴聚會並吉」(T21 p.397c). Social interactions flow easily today. Gatherings, collaborations, and building connections are all well-timed.",
+        "sutra_key": "shin",
+        "context": "daily"
+      },
+      {
+        "text": "Eishin day:「上書表進獻君王、興營買賣」(T21 p.397c). Reports, proposals, and business pushes are likely to land well today. If you have something to pitch, do it now.",
+        "sutra_key": "ei",
+        "context": "daily"
+      },
+      {
+        "text": "Eishin-Shin days are broadly auspicious. Section 2 lists multiple matters as「並吉」-- whether you are pursuing a promotion or expanding your social circle, your drive and judgment are at a peak.",
+        "sutra_key": "ei",
+        "context": "daily"
+      },
+      {
+        "text": "Yuu day:「宜結交朋友大吉」(T21 p.391b). Attend a gathering or reach out to someone you have not contacted in a while. You are likely to find people willing to help.",
+        "sutra_key": "yu",
+        "context": "daily"
+      }
+    ],
+    "good": [
+      {
+        "text": "Jou day:「宜修道學問、作諸成就法並吉」(T21 p.398a). Today suits work that requires deep focus -- effort is more likely to yield results.",
+        "sutra_key": "sei",
+        "context": "daily"
+      },
+      {
+        "text": "Yuu day:「宜結交朋友大吉」(T21 p.391b). Communication with colleagues and friends comes easier than usual, and teamwork is efficient.",
+        "sutra_key": "yu",
+        "context": "daily"
+      },
+      {
+        "text": "An day:「造作園宅並吉」(T21 p.397c). A good day for building systems, tidying your environment, and steadily advancing projects.",
+        "sutra_key": "an",
+        "context": "daily"
+      },
+      {
+        "text": "Jou day:「合和長年藥法」(T21 p.398a). Today suits decisions that require careful weighing -- your judgment is steady.",
+        "sutra_key": "sei",
+        "context": "daily"
+      },
+      {
+        "text": "Ki day:「宜結交、歡宴聚會並吉」(T21 p.397c). Social occasions tend to pay off. Meals and networking events are favorable.",
+        "sutra_key": "ki",
+        "context": "daily"
+      }
+    ],
+    "neutral": [
+      {
+        "text": "An day:「造作園宅並吉」; Ki day:「不宜遠行買賣」(T21 p.397c-398a). A neutral zone -- handle routine tasks at your own pace.",
+        "sutra_key": "an",
+        "context": "daily"
+      },
+      {
+        "text": "Section 2 notes An day:「移徙吉」and Ki day:「歡宴聚會並吉」(T21 p.397c-398a), with mixed indications. Today suits organizing files and updating your to-do list -- no need to push for breakthroughs.",
+        "sutra_key": "an",
+        "context": "daily"
+      },
+      {
+        "text": "An-Ki level. Section 2:「安坐臥床帳吉」(T21 p.397c). No dramatic swings today. Rest, recharge, take a walk, and let your mind breathe.",
+        "sutra_key": "an",
+        "context": "daily"
+      },
+      {
+        "text": "An-Ki days carry mixed signals (T21 p.397c-398a). No need to force progress -- focus on maintaining what you already have and making sure things stay on track.",
+        "sutra_key": "ki",
+        "context": "daily"
+      },
+      {
+        "text": "Section 2 An day:「造作園宅」(T21 p.397c); Ki day has mixed indications. Take it slow today. If something is not resolving, set it aside for now.",
+        "sutra_key": "an",
+        "context": "daily"
+      }
+    ],
+    "caution": [
+      {
+        "text": "Sui day:「唯宜解除諸惡、療病」「不宜出入遷移、買賣」(T21 p.398a). Think twice before deciding. Do not rush anything involving money.",
+        "sutra_key": "sui",
+        "context": "daily"
+      },
+      {
+        "text": "Kai day:「餘並不堪」(T21 p.398a). Not the time to push for things. Keep a low profile, listen more than you speak, and focus on what you can control.",
+        "sutra_key": "kai",
+        "context": "daily"
+      },
+      {
+        "text": "Ki day:「不宜遠行出入移徙、買賣」(T21 p.398a). Watch your words in social interactions. If disagreements arise, hold your opinion for now.",
+        "sutra_key": "ki",
+        "context": "daily"
+      },
+      {
+        "text": "Sui day:「不宜買賣」. Do not make important financial calls based on gut feeling. Seek objective data or professional advice.",
+        "sutra_key": "sui",
+        "context": "daily"
+      },
+      {
+        "text": "Kai day: aside from「宜作鎮壓、降伏怨讎」, everything else is「並不堪」. Double-check your workflow before acting to avoid small mistakes.",
+        "sutra_key": "kai",
+        "context": "daily"
+      }
+    ],
+    "challenging": [
+      {
+        "text": "Gou day:「所作善惡亦不成就，甚衰」(T21 p.397c). Postpone major decisions. Treat today as a buffer day and focus on finishing what is already confirmed.",
+        "sutra_key": "gyo",
+        "context": "daily"
+      },
+      {
+        "text": "Tai day:「不宜舉動百事」(T21 p.397c). Your body may feel tired -- do not push through. Rest when you need to.",
+        "sutra_key": "tai",
+        "context": "daily"
+      },
+      {
+        "text": "Mei day:「不宜舉動百事」(T21 p.397c). Section 3 advises「宜修功德」. Use this low period to review whether your direction is right and prepare for the next wave of action.",
+        "sutra_key": "mei",
+        "context": "daily"
+      },
+      {
+        "text": "Gou-Tai days are not suited for launching new plans or taking risks. Spend your time organizing, repairing, and maintaining -- it saves energy for later.",
+        "sutra_key": "gyo",
+        "context": "daily"
+      },
+      {
+        "text": "Gou day being「甚衰」does not mean things stay this way. Fortune ebbs and flows as part of the Sanki cycle's natural rhythm. Wait patiently for the next Eishin-Shin day.",
+        "sutra_key": "gyo",
+        "context": "daily"
+      }
+    ]
+  },
+  "lucky_items": {
+    "directions": {
+      "木": "East",
+      "火": "South",
+      "土": "Center",
+      "金": "West",
+      "水": "North",
+      "日": "Southeast",
+      "月": "Northwest"
+    },
+    "colors": {
+      "木": "Green",
+      "火": "Red",
+      "土": "Yellow",
+      "金": "White",
+      "水": "Black",
+      "日": "Orange",
+      "月": "Silver"
+    }
+  },
+  "weekday_planets": {
+    "0": "Sun",
+    "1": "Moon",
+    "2": "Mars",
+    "3": "Mercury",
+    "4": "Jupiter",
+    "5": "Venus",
+    "6": "Saturn"
+  },
+  "yosei_relations": {
+    "same": {
+      "description": "Same-luminary resonance. Energies reinforce each other -- a favorable time to lean into your innate strengths."
+    },
+    "generating": {
+      "description": "Supportive relationship. Energy flows smoothly, making it a good time to steadily advance ongoing plans."
+    },
+    "neutral": {
+      "description": "Neutral energy. Suitable for handling routine tasks and maintaining your current pace."
+    },
+    "weakening": {
+      "description": "Draining relationship. Energy depletes faster than usual -- manage your workload and take breaks."
+    },
+    "conflicting": {
+      "description": "Obstructive relationship. Energy is blocked. Postpone major decisions and focus on observation."
+    }
+  },
+  "yosei_relation_type_names": {
+    "same": "Same Luminary",
+    "generating": "Supportive",
+    "weakening": "Draining",
+    "conflicting": "Obstructive",
+    "neutral": "Neutral"
+  }
+}

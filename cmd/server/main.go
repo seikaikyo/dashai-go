@@ -23,6 +23,7 @@ import (
 	"github.com/seikaikyo/dashai-go/internal/response"
 	"github.com/seikaikyo/dashai-go/internal/security"
 	"github.com/seikaikyo/dashai-go/internal/shukuyo/engine"
+	"github.com/seikaikyo/dashai-go/internal/shukuyo/fortune"
 	"github.com/seikaikyo/dashai-go/internal/shukuyo/user"
 	"github.com/seikaikyo/dashai-go/internal/web"
 )
@@ -85,7 +86,7 @@ func main() {
 		response.OK(w, map[string]any{
 			"app":      "DashAI Go Gateway",
 			"version":  version,
-			"services": []string{"/demo", "/factory", "/edge", "/events", "/security", "/shukuyo/engine", "/shukuyo/user", "/dashboard"},
+			"services": []string{"/demo", "/factory", "/edge", "/events", "/security", "/shukuyo/engine", "/shukuyo/fortune", "/shukuyo/user", "/dashboard"},
 		})
 	})
 
@@ -104,6 +105,9 @@ func main() {
 
 	// Shukuyo engine (pure computation, no DB)
 	r.Mount("/shukuyo/engine", engine.Router())
+
+	// Shukuyo fortune (modern interpretation layer, no DB)
+	r.Mount("/shukuyo/fortune", fortune.Router())
 
 	// Shukuyo user (profile CRUD, company cache)
 	if db != nil {
