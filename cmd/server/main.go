@@ -23,6 +23,7 @@ import (
 	"github.com/seikaikyo/dashai-go/internal/response"
 	"github.com/seikaikyo/dashai-go/internal/security"
 	"github.com/seikaikyo/dashai-go/internal/shukuyo/engine"
+	"github.com/seikaikyo/dashai-go/internal/shukuyo/user"
 	"github.com/seikaikyo/dashai-go/internal/web"
 )
 
@@ -84,7 +85,7 @@ func main() {
 		response.OK(w, map[string]any{
 			"app":      "DashAI Go Gateway",
 			"version":  version,
-			"services": []string{"/demo", "/factory", "/edge", "/events", "/security", "/shukuyo/engine", "/dashboard"},
+			"services": []string{"/demo", "/factory", "/edge", "/events", "/security", "/shukuyo/engine", "/shukuyo/user", "/dashboard"},
 		})
 	})
 
@@ -103,6 +104,11 @@ func main() {
 
 	// Shukuyo engine (pure computation, no DB)
 	r.Mount("/shukuyo/engine", engine.Router())
+
+	// Shukuyo user (profile CRUD, company cache)
+	if db != nil {
+		r.Mount("/shukuyo/user", user.Router(cfg, db))
+	}
 
 	// Embedded dashboard UI
 	r.Mount("/dashboard", http.StripPrefix("/dashboard", web.Handler()))
