@@ -1,0 +1,56 @@
+{
+  "eishin": {
+    "description": "The other party elevates your abilities, and you naturally improve around them. This is the most ideal mutual growth combination in Sukuyodo.",
+    "detailed": "Eishin represents the highest compatibility. Both parties develop positively when together, creating a virtuous cycle of mutual elevation in both professional and personal contexts.",
+    "advice": "The relationship quality is high, but it still requires active maintenance. Express gratitude regularly.",
+    "tips": ["Collaborate actively for amplified results", "Invest in long-term shared goals"],
+    "avoid": ["Taking the other's contributions for granted", "Neglecting the relationship because it feels effortless"],
+    "good_for": ["Long-term business partners", "Core team members"],
+    "description_classic": "Eishin: the supreme auspicious pairing."
+  },
+  "gyotai": {
+    "description": "Deep intuitive understanding from the start. You can anticipate each other's thoughts with minimal communication. A past-life karma bond.",
+    "detailed": "Gyotai represents karmic connections from previous lives. The gyo party drives the other's mission; the tai party receives nurturing. Collaboration efficiency is naturally high.",
+    "advice": "Leverage the natural rapport but don't skip formal communication.",
+    "tips": ["Use natural rapport to quickly establish collaboration", "Maintain explicit communication"],
+    "avoid": ["Relying solely on intuition without verification"],
+    "good_for": ["Teams requiring high-trust collaboration"],
+    "description_classic": "Gyotai: karmic bonds from past lives."
+  },
+  "mei": {
+    "description": "Mirror-image compatibility. Nearly identical thinking and behavior patterns. Zero communication barriers but limited complementarity.",
+    "detailed": "Mei means same mansion, same essence. Understanding each other is effortless, but shared blind spots are a risk.",
+    "advice": "Enjoy the frictionless communication but actively seek external perspectives.",
+    "tips": ["Leverage zero-barrier communication", "Introduce external viewpoints"],
+    "avoid": ["Both diving into the same blind spot"],
+    "good_for": ["High-consensus decision scenarios"],
+    "description_classic": "Mei: like a mirror reflection."
+  },
+  "yusui": {
+    "description": "You invest energy to make the other comfortable, but reciprocation is uneven. Works for short-term collaboration; watch for drain in the long run.",
+    "detailed": "In yusui, the yu party provides social energy while the sui party enjoys it with limited return. The yu party gradually tires.",
+    "advice": "If you're the yu party, set clear boundaries. If sui, consciously reciprocate.",
+    "tips": ["Yu party: set contribution limits", "Best for short-term projects"],
+    "avoid": ["Unlimited giving by the yu party", "Long-term deep commitment without balance"],
+    "good_for": ["Short-term projects", "Roles with clear division of labor"],
+    "description_classic": "Yusui: yu side auspicious for socializing, sui side for recovery only."
+  },
+  "kisei": {
+    "description": "Complementary skills and perspectives. Requires an adjustment period, but once past it, this becomes a highly efficient partnership.",
+    "detailed": "In kisei, the ki party faces pressure that drives growth, while the sei party strengthens through refinement. Initial discomfort is normal.",
+    "advice": "Give the adjustment period enough time. Initial friction doesn't mean incompatibility.",
+    "tips": ["Allow sufficient time for adjustment", "Leverage complementary strengths"],
+    "avoid": ["Giving up due to initial discomfort"],
+    "good_for": ["Teams needing complementary skills"],
+    "description_classic": "Kisei: complementary pairing."
+  },
+  "ankai": {
+    "description": "The kai party disrupts the an party's stability. Stimulating but draining. Short-term growth is possible, but long-term risk is high.",
+    "detailed": "Ankai is the highest-tension relationship in Sukuyodo. The an party continuously outputs energy to maintain stability while the kai party draws from it.",
+    "advice": "If you're the an party, set firm boundaries. External balancing mechanisms are essential.",
+    "tips": ["An party must set boundaries", "Short-term collaboration is safer than long-term"],
+    "avoid": ["An party giving without limits", "Long-term deep commitment without external support"],
+    "good_for": ["Short-term high-pressure projects"],
+    "description_classic": "Ankai: the kai side 'nothing else is bearable.'"
+  }
+}

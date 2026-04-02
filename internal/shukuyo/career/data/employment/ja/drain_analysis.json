@@ -1,0 +1,13 @@
+{
+  "mei":  {"relationship":"同宿同体、会社と周波数が同じ","daily_feel":"自然体で馴染む、適応コスト低い","energy_flow_desc":"双方向対等","long_term_risk":"快適すぎて成長刺激が不足","growth":"低。自分で動機を見つける必要がある","stability":"高","bad_year_impact":"大凶年でも会社からの追加消耗なし","fit_for":"自律性が高い人"},
+  "gyo":  {"relationship":"前世の因縁、使命感で自然に投入","daily_feel":"説明できない使命感がある","energy_flow_desc":"微量出力、因縁の加護あり","long_term_risk":"過度投入で自分の需要を忘れがち","growth":"中","stability":"中高","bad_year_impact":"使命感が重くなるが崩壊しない","fit_for":"使命感がある人"},
+  "tai":  {"relationship":"因縁の受容方、自然にケアされる","daily_feel":"ケアされる感覚、適応が早い","energy_flow_desc":"相手が微量出力、自分は受容方","long_term_risk":"依存しすぎると自立性が退化","growth":"中","stability":"中高","bad_year_impact":"相手の緩衝あり","fit_for":"指導を受け入れられる人"},
+  "ei":   {"relationship":"互いにリソースを投入し合う正循環","daily_feel":"付出に見返りがある","energy_flow_desc":"主動投入だが回報で疲れない","long_term_risk":"回報が途切れると空虚感","growth":"高","stability":"中高","bad_year_impact":"正循環は弱まるが逆転しない","fit_for":"先に付出できる人"},
+  "shin": {"relationship":"相手がリソースを投入して育成","daily_feel":"重視され育てられる感覚","energy_flow_desc":"相手が投入、自分は受益","long_term_risk":"育成依存で独立困難に","growth":"高","stability":"高","bad_year_impact":"投入効果は弱まるが逆消耗なし","fit_for":"学習力が高い人"},
+  "yu":   {"relationship":"付出方、会社に快適さを提供","daily_feel":"関係を主導するが疲れに気づかれない","energy_flow_desc":"持続出力、相手は受容","long_term_risk":"社交面のみ、深い結びつきは不向き","growth":"中","stability":"中","bad_year_impact":"社交エネルギー低下","fit_for":"社交力が高い人"},
+  "sui":  {"relationship":"衰方として持続消耗される","daily_feel":"リソースは来るが疲労が蓄積","energy_flow_desc":"会社高投入、自分は消耗","long_term_risk":"消耗して離れたい時に離れられない","growth":"高だが受動的","stability":"中低","bad_year_impact":"二重消耗","fit_for":"ストレス耐性が高い人"},
+  "an":   {"relationship":"安定を主導するが持続出力が必要","daily_feel":"傘を差し続ける感覚","energy_flow_desc":"持続出力で安定維持","long_term_risk":"消耗に気づかず透支","growth":"中","stability":"表面高、実質消耗","bad_year_impact":"維穩圧力倍増","fit_for":"管理力があり境界線を引ける人"},
+  "kai":  {"relationship":"相手がエネルギーを持続吸収","daily_feel":"半年後に不足感","energy_flow_desc":"一方的なエネルギー流出","long_term_risk":"2-3年後に非常に辛くなる","growth":"低","stability":"低","bad_year_impact":"キャリア最低谷の可能性","fit_for":"強力な外部サポートがある場合のみ"},
+  "ki":   {"relationship":"圧力型の相互作用で成長を促す","daily_feel":"短期は刺激的、長期は疲労","energy_flow_desc":"相手が施圧、自分が受容","long_term_risk":"圧力上限を超えると害に","growth":"高だが代償あり","stability":"中","bad_year_impact":"圧力が圧倒する可能性","fit_for":"ストレスを楽しめる人"},
+  "sei":  {"relationship":"摩擦から成長、適応後に強くなる","daily_feel":"初期は不快、適応後に実感","energy_flow_desc":"相手の特質で磨かれる、消耗低","long_term_risk":"初期の適応期が必要","growth":"高","stability":"高","bad_year_impact":"摩擦感増だが崩壊しない","fit_for":"初期の不快に耐えられる人"}
+}
