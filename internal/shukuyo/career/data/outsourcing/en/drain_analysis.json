@@ -1,0 +1,178 @@
+{
+  "mei": {
+    "relationship": "Both companies have equivalent capabilities. No clear value differential in the outsourcing relationship",
+    "daily_feel": "Collaboration is smooth but unremarkable. Like doing business with another version of yourself",
+    "energy_flow_desc": "Balanced and equal. No extraction, but no complementary value-add either",
+    "long_term_risk": "Once the client fills their internal capacity gap, they no longer need you. Contract can end anytime",
+    "growth": "Low. You're doing what you already know. No new learning",
+    "stability": "Medium. Stable during the contract term, but weak renewal motivation",
+    "bad_year_impact": "In a bad year, if the client cuts outsourcing budget, you're the first to go",
+    "fit_for": "Short-term capacity augmentation. Not suitable as a primary client",
+    "hr": {
+      "relationship": "Vendor capabilities overlap with internal team. Outsourcing value is mainly headcount, not expertise",
+      "daily_feel": "Collaboration is smooth but the vendor adds limited incremental value",
+      "bad_year_impact": "Outsourcing contracts are the first item cut during budget reductions",
+      "fit_for": "Pure capacity supplementation needs. Not suited for long-term strategic partnership"
+    }
+  },
+  "gyo": {
+    "relationship": "Your company unconsciously over-invests. A sense of mission drives you to make the client's project excellent",
+    "daily_feel": "You voluntarily work overtime to raise delivery quality. You aim for the best even when the client hasn't asked for it",
+    "energy_flow_desc": "You invest slightly more than required, but the client's responsiveness keeps it from becoming draining",
+    "long_term_risk": "The Gyo-side company tends to prioritize client needs over its own team's needs",
+    "growth": "Medium. Experience accumulates through serving the client, but direction is client-determined",
+    "stability": "Medium-high. Both sides have a rapport foundation, and contract renewal rates are high",
+    "bad_year_impact": "In a bad year, the input-to-output ratio worsens, but the relationship holds",
+    "fit_for": "Teams willing to invest deeply in client relationships and treat client success as their own",
+    "hr": {
+      "relationship": "Vendor brings intrinsic motivation and invests beyond contract requirements",
+      "daily_feel": "Vendor delivery quality is consistently above average with good responsiveness",
+      "bad_year_impact": "In a bad year, input-to-output ratio worsens but the collaboration remains stable",
+      "fit_for": "Partners who demonstrate high responsiveness and willingness to go beyond contracted scope"
+    }
+  },
+  "tai": {
+    "relationship": "The client naturally provides resources and guidance. Your company grows within their ecosystem",
+    "daily_feel": "Like being mentored by a larger organization. The client proactively shares specs and technical resources",
+    "energy_flow_desc": "The client invests guidance resources; you're the beneficiary. Low drain",
+    "long_term_risk": "Over-dependence on a single client. After leaving, you may not know how to win work independently",
+    "growth": "Medium. You grow at the client's pace but are constrained by their tech stack",
+    "stability": "Medium-high. The client has a vendor development strategy and won't switch easily",
+    "bad_year_impact": "In a bad year, the client's ecosystem provides a buffer. Lower risk than independent contracting",
+    "fit_for": "Small-to-mid-size outsourcing teams that want to leverage enterprise resources for growth",
+    "hr": {
+      "relationship": "Vendor grows within the client's ecosystem; client invests guidance resources",
+      "daily_feel": "Vendor adapts quickly with good return on training investment",
+      "bad_year_impact": "In a bad year, ecosystem buffer prevents sudden contract termination",
+      "fit_for": "Vendors willing to follow the client's tech stack for long-term development"
+    }
+  },
+  "ei": {
+    "relationship": "Your delivery quality directly boosts client revenue, and client feedback continuously improves your team",
+    "daily_feel": "A positive feedback loop where both sides elevate each other. The more projects you do together, the better the coordination",
+    "energy_flow_desc": "You invest high-quality deliverables; client feedback prevents any feeling of drain",
+    "long_term_risk": "The Ei side invests more. If the client suddenly cuts budget, the positive loop breaks",
+    "growth": "High. Bidirectional improvement where your team grows continuously through the collaboration",
+    "stability": "Medium-high. Stable as long as the positive loop continues. Risk factor: client-side procurement personnel changes",
+    "bad_year_impact": "In a bad year, collaboration pace may slow but won't flip into a drain relationship",
+    "fit_for": "Teams willing to invest in high-quality delivery and believe in long-term collaboration value",
+    "hr": {
+      "relationship": "Vendor and client drive each other's business growth in a positive feedback loop",
+      "daily_feel": "Collaboration efficiency improves continuously with both delivery quality and feedback on track",
+      "bad_year_impact": "In a bad year, pace slows but doesn't reverse. Collaboration foundation is solid",
+      "fit_for": "Vendors capable of sustained high-quality delivery. Ideal for long-term strategic partnership"
+    }
+  },
+  "shin": {
+    "relationship": "The client invests resources to develop your team. You are the beneficiary",
+    "daily_feel": "The client provides specs, training, and technical documentation. Entry barriers are lowered",
+    "energy_flow_desc": "The client actively invests; you are the beneficiary. Low drain, fast growth",
+    "long_term_risk": "After leaving this client, others may not provide the same level of resources",
+    "growth": "High. Passive but effective growth. The key is internalizing what you learn as your own capability",
+    "stability": "High. The client has a vendor development strategy and won't switch easily",
+    "bad_year_impact": "In a bad year, client investment may shrink but won't reverse into drain",
+    "fit_for": "Teams with strong learning ability that can quickly internalize client knowledge",
+    "hr": {
+      "relationship": "Client invests resources to develop the vendor. Vendor is the beneficiary",
+      "daily_feel": "Vendor ramps up quickly with good return on training investment",
+      "bad_year_impact": "In a bad year, development intensity weakens but no reverse drain",
+      "fit_for": "Outsourcing teams with strong learning ability that can reach delivery standards quickly"
+    }
+  },
+  "yu": {
+    "relationship": "Your company is the giver. The client enjoys your service but reciprocation is limited",
+    "daily_feel": "You proactively serve, communicate, and solve problems. The client considers this standard",
+    "energy_flow_desc": "You continuously over-deliver; the client receives. Your team's fatigue goes unnoticed",
+    "long_term_risk": "The Yu-side company sees margin compression. Team burnout risk is high",
+    "growth": "Medium. Client relationship management skills improve, but profit margins shrink",
+    "stability": "Medium. Relationship stays stable as long as you keep over-delivering; stop and you may lose the client",
+    "bad_year_impact": "In a bad year, your delivery capacity drops and previously 'free' services become unsustainable",
+    "fit_for": "Teams with strong business development capability that can leverage this client to acquire others",
+    "hr": {
+      "relationship": "Vendor continuously over-delivers; client enjoys above-contract service",
+      "daily_feel": "Vendor service quality is high but actual costs may exceed contract value",
+      "bad_year_impact": "In a bad year, vendor delivery capacity drops and service quality may plummet",
+      "fit_for": "Projects requiring high service quality, but watch for vendor burnout risk"
+    }
+  },
+  "sui": {
+    "relationship": "The client provides projects and resources, but your team gets increasingly drained",
+    "daily_feel": "The client's projects look good on paper, but actual execution burden is heavier than expected",
+    "energy_flow_desc": "The client drives the collaboration pace; your team follows reactively. Year one is manageable; after that, diminishing returns",
+    "long_term_risk": "By the time you want to exit, dependencies are too deep to disengage",
+    "growth": "High but passive. The client pushes your team to grow, but the direction is client-determined",
+    "stability": "Medium-low. Team fatigue accumulates; key personnel may resign",
+    "bad_year_impact": "A bad year combined with Sui-side drain may be more than the team can handle",
+    "fit_for": "Teams with clear contract end dates and a defined exit timeline",
+    "hr": {
+      "relationship": "Client provides resources but vendor team is continuously drained",
+      "daily_feel": "Vendor performs well initially but output diminishes over time",
+      "bad_year_impact": "In a bad year, vendor may be unable to maintain delivery quality",
+      "fit_for": "Short-to-medium-term collaboration with explicit exit mechanisms. Otherwise, retention risk is high"
+    }
+  },
+  "an": {
+    "relationship": "Your company handles project stability but needs to continuously output management energy",
+    "daily_feel": "Like holding an umbrella over the client's entire project. PM and tech support burden falls on you",
+    "energy_flow_desc": "You continuously output management and stabilization energy; the client depends on your steadiness",
+    "long_term_risk": "The An-side company's management resources get locked to this client, unavailable for other engagements",
+    "growth": "Medium. Project management skills improve, but you're stuck in the stabilizer role",
+    "stability": "Appears high, actually draining. Stable while you hold the umbrella; collapse when you can't",
+    "bad_year_impact": "In a bad year, stabilization pressure doubles and can become the straw that breaks the team",
+    "fit_for": "Teams with strong management skills that can set boundaries. Without boundaries, you'll be emptied out",
+    "hr": {
+      "relationship": "Vendor handles project stability but management energy drain is significant",
+      "daily_feel": "Vendor holds the project together, but sustained umbrella-holding carries burnout risk",
+      "bad_year_impact": "In a bad year, stabilization pressure doubles and vendor may demand contract renegotiation",
+      "fit_for": "Management-strong outsourcing teams. Pay attention to management responsibility allocation in the contract"
+    }
+  },
+  "kai": {
+    "relationship": "The client continuously extracts value from your company. Endless revisions, payment delays, scope explosions",
+    "daily_feel": "Initially you think the client is just demanding. Six months later, you realize nothing is ever enough",
+    "energy_flow_desc": "The client unilaterally drains your delivery energy. Margins fall continuously",
+    "long_term_risk": "Halfway through the project you're already in the red, but the penalty for walking away costs more",
+    "growth": "Low. All team energy goes to handling client revisions and scope additions",
+    "stability": "Low. The Kai side is the most unstable position. Highest risk of contract disputes",
+    "bad_year_impact": "A bad year combined with Kai position may mean contract disputes or financial crisis",
+    "fit_for": "Unless contract terms strictly protect you, this client is not recommended",
+    "hr": {
+      "relationship": "Client continuously exploits vendor. Payment delays and scope explosions are the norm",
+      "daily_feel": "Vendor starts flagging after six months with declining delivery quality and attitude",
+      "bad_year_impact": "In a bad year, vendor may breach contract and walk away",
+      "fit_for": "Without strict scope and payment protection clauses, this collaboration carries extreme risk"
+    }
+  },
+  "ki": {
+    "relationship": "The client's pressure pushes your team to grow. Pressure-driven collaboration",
+    "daily_feel": "High client demands and strict standards. Short-term pressure, but it forges good work",
+    "energy_flow_desc": "The client applies pressure; your team absorbs it. Drain is non-trivial but offset by capability growth",
+    "long_term_risk": "The Ki side has a pressure tolerance ceiling. Beyond it, growth turns to damage",
+    "growth": "High but costly. Pressure-driven growth requires team rest mechanisms",
+    "stability": "Medium. Manageable pressure is good training; excessive pressure triggers resignations",
+    "bad_year_impact": "In a bad year, pressure may crush the team rather than push it forward",
+    "fit_for": "Companies with high team stress tolerance that thrive on demanding clients",
+    "hr": {
+      "relationship": "Client's high standards drive vendor growth. Pressure-type collaboration",
+      "daily_feel": "Vendor shows drive in the short term, but long-term burnout needs monitoring",
+      "bad_year_impact": "In a bad year, pressure may crush the vendor. Delivery pace adjustment needed",
+      "fit_for": "High-stress-tolerance outsourcing companies with stable teams"
+    }
+  },
+  "sei": {
+    "relationship": "Your team becomes stronger through alignment with the client's high standards. Delivery quality improves continuously",
+    "daily_feel": "Initially uncomfortable during standards alignment. After adapting, you realize the team has leveled up",
+    "energy_flow_desc": "The client's requirements forge your team. Low drain but solid growth",
+    "long_term_risk": "Sei-side risk is low, but the initial alignment period may cause impatient team members to leave",
+    "growth": "High. Growth through client alignment is solid and transferable to other engagements",
+    "stability": "High. Post-alignment, this is one of the most stable collaboration types",
+    "bad_year_impact": "In a bad year, the alignment friction intensifies but doesn't break the collaboration",
+    "fit_for": "Companies patient enough to endure the alignment period and focused on long-term team growth",
+    "hr": {
+      "relationship": "Vendor grows through alignment with client's high standards. Delivery quality improves continuously",
+      "daily_feel": "Vendor needs initial adaptation but becomes stable and continuously improving post-alignment",
+      "bad_year_impact": "In a bad year, alignment friction increases but the collaboration holds",
+      "fit_for": "Outsourcing teams willing to endure alignment and invest for the long term"
+    }
+  }
+}

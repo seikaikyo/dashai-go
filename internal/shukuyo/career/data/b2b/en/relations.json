@@ -1,0 +1,56 @@
+{
+  "eishin": {
+    "description": "Both companies elevate each other's market position when partnered. Brand value and revenue grow in tandem. The best alliance combination in Sukuyodo.",
+    "detailed": "Eishin in the B2B context means both parties create positive market resonance. Company A's strengths amplify Company B's value, and vice versa. Co-marketing, technology sharing, and joint R&D all produce results beyond what either could achieve alone. The core is bidirectional value creation — not one side riding the other's coattails.",
+    "advice": "Suitable for deep commitment: joint ventures, co-branding, long-term strategic alliances. Even the best partnerships need contractual safeguards. Spell out profit sharing and exit mechanisms clearly.",
+    "tips": ["Establish a formal strategic alliance framework with clear inputs and returns", "Co-branding activities amplify both parties' market presence", "Review partnership performance regularly to confirm mutual benefit", "Consider a joint venture to house shared R&D outcomes", "Maintain information transparency with regular executive dialogues"],
+    "avoid": ["Relaxing contract terms because the partnership feels easy", "Unilaterally expanding scope without renegotiating terms", "Ignoring IP ownership questions"],
+    "good_for": ["Strategic alliances", "Joint ventures", "Co-brand marketing", "Technology sharing agreements", "Long-term supply chain partnerships"],
+    "description_classic": "Eishin: the supreme auspicious pairing. Two enterprises together generate mutual radiance and shared market prosperity."
+  },
+  "gyotai": {
+    "description": "Deep industry alignment between both companies. Co-marketing and cross-selling opportunities arise naturally. A karmic-level industry complementarity.",
+    "detailed": "Gyotai in the B2B context means both companies occupy naturally complementary positions in the value chain. The gyo party drives industry-level initiatives; the tai party receives and amplifies the results. Customer overlap is high but non-conflicting. Joint proposals practically sell themselves.",
+    "advice": "Leverage the natural industry alignment to launch partnerships quickly, but don't skip formal contracts. The ease of entry can make you careless about negotiation details.",
+    "tips": ["Launch joint proposals and cross-selling quickly", "Build shared customer management processes", "Use industry alignment for joint content marketing", "Periodically verify that both parties' industry roadmaps remain aligned"],
+    "avoid": ["Skipping formal contracts because the rapport is strong", "Assuming the other party's industry direction will always match yours", "Ignoring customer data privacy between partners"],
+    "good_for": ["Value chain upstream-downstream partnerships", "Joint proposals", "Cross-selling agreements", "Shared customer management"],
+    "description_classic": "Gyotai: karmic bonds from past lives. Two enterprises meet and industry alignment occurs naturally."
+  },
+  "mei": {
+    "description": "Both companies occupy the same market segment with highly similar offerings. More competitors than partners. Information leakage risk outweighs partnership benefits.",
+    "detailed": "Mei means same mansion, same essence — both companies' market positioning, customer base, and solutions overlap heavily. Every industry insight you share could be used against you in competition. Partnership scope must be strictly limited. Core competencies are absolutely off-limits for sharing.",
+    "advice": "Unless there's a clearly defined complementary area (e.g., geographic market division), the risks outweigh the benefits. If you must partner, make NDAs watertight and keep the scope as narrow as possible.",
+    "tips": ["Strictly limit partnership scope — core business is off-limits", "NDAs must include non-compete clauses", "Implement tiered information access controls", "Prepare contingency plans for the partner becoming a direct competitor"],
+    "avoid": ["Sharing core technology or customer lists", "Revealing your product roadmap", "Assuming the other party won't use your information competitively", "Signing long-term exclusivity agreements"],
+    "good_for": ["Geographic market division agreements", "Industry standard co-development", "Extremely narrow technology exchanges"],
+    "description_classic": "Mei: like a mirror reflection. When companies in the same space meet, partnership and competition are separated by a thin line."
+  },
+  "yusui": {
+    "description": "One company provides significantly more value than it receives in the partnership. Channel partner imbalance and resource asymmetry build resentment over time.",
+    "detailed": "In B2B yusui, the yu party is the value exporter — providing technology, brand endorsement, and customer referrals. The sui party benefits from these resources but returns are limited. The partnership looks like a win-win initially, but over time the yu party starts tallying the ledger.",
+    "advice": "Contracts must explicitly define each party's inputs and return metrics. The yu party needs a stop-loss threshold; the sui party needs to consciously increase reciprocation. Run quarterly partnership value audits.",
+    "tips": ["Contracts must define both parties' contribution obligations and return mechanisms", "Set quarterly partnership value audits", "Yu party sets a stop-loss line — trigger renegotiation when reached", "Sui party proactively proposes increased reciprocation"],
+    "avoid": ["Yu party investing without limits or stop-loss", "Sui party taking the other's resource investment for granted", "Long-term exclusivity agreements that trap the yu party", "Ignoring value flow analysis in the partnership"],
+    "good_for": ["Channel partnerships with clear revenue sharing", "Short-term joint marketing campaigns", "Agency agreements with exit clauses"],
+    "description_classic": "Yusui: yu side auspicious for socializing, sui side for recovery only. In B2B partnerships, value flow must be measured."
+  },
+  "kisei": {
+    "description": "Complementary market coverage between both companies with strong cross-selling potential. Requires an alignment period to harmonize processes and culture. Once past it, a highly efficient partnership.",
+    "detailed": "Kisei in the B2B context means both companies have clear complementarity in markets, technology, or customer segments. The ki party absorbs adjustment pressure; the sei party finds better operating methods through the refinement process. Initial process conflicts, cultural differences, and high communication costs are normal — partnership efficiency exceeds solo operations once through the alignment period.",
+    "advice": "Budget sufficient time and resources for the alignment period. Don't rush ROI in the first three to six months — focus on getting partnership processes running smoothly. Set milestone-based checkpoints rather than hard KPIs.",
+    "tips": ["Reserve six months for alignment — don't evaluate partnership performance during this period", "Start with small pilot projects, then scale after success", "Assign dedicated liaison contacts on both sides", "Build shared project management tools and communication channels"],
+    "avoid": ["Terminating early due to alignment-period difficulties", "Signing large long-term contracts from the start", "Ignoring corporate culture differences", "Using short-term ROI to judge long-term complementary value"],
+    "good_for": ["Cross-selling agreements", "Joint expansion into complementary markets", "Complementary technology co-development", "Joint marketing to complementary customer bases"],
+    "description_classic": "Kisei: the complementary pairing. Endure initial friction and market coverage doubles."
+  },
+  "ankai": {
+    "description": "One company dominates the partnership while the other is gradually marginalized. Power imbalance leads to unfair terms, and the subordinate party eventually loses all negotiating leverage.",
+    "detailed": "Ankai is the most power-imbalanced combination in B2B partnerships. The kai party continuously extracts value from the an party — technology transfer, market resources, brand endorsement — while the an party's returns are disproportionately small. The kai party may not have malicious intent, but the partnership structure inherently tilts power to one side. The more the an party invests, the harder it becomes to exit.",
+    "advice": "If you're the an party, write exit clauses from day one. For every contract term, ask: 'If the other party becomes unreasonable, can I still walk away intact?' If you're the kai party, restrain your extraction — over-squeezing will collapse the partnership prematurely.",
+    "tips": ["An party must include clear exit clauses and penalty terms in the contract", "Set trigger conditions for power rebalancing", "Regularly assess changes in each party's bargaining power", "An party retains core technology and customer relationships — never transfer everything"],
+    "avoid": ["An party transferring core assets to the kai party", "Signing long-term exclusivity without exit clauses", "Ignoring shifts in the partnership's power structure", "An party making continuous concessions to maintain the partnership", "Kai party over-extracting until the an party is hollowed out"],
+    "good_for": ["Short-term project partnerships with strict exit clauses", "Joint development with third-party arbitration", "Strategic alliances with power-rebalancing provisions"],
+    "description_classic": "Ankai: the kai side — 'nothing else is bearable.' In B2B partnerships, power imbalance gradually hollows out the an party."
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "ei": {
+    "sutra_key": "ei",
+    "headline": "High-Growth Candidate",
+    "context_note": "Ei day: auspicious for career advancement",
+    "detail": "This candidate performs best in growth-oriented environments. Give them challenges and resources, and the returns will exceed expectations. Suited for positions requiring independent leadership and team elevation. The ambition and vision shown in interviews is genuine.",
+    "do": ["Assign challenging core projects", "Provide a clear promotion path", "Observe leadership potential and strategic vision in interviews", "Grant sufficient decision-making authority post-hire"],
+    "avoid": ["Placing them in positions with no growth potential", "Over-constraining their initiative"]
+  },
+  "shin": {
+    "sutra_key": "shin",
+    "headline": "Trainable Candidate",
+    "context_note": "Shin day: auspicious for forming bonds",
+    "detail": "This candidate is willing to accept company investment in their development, with high loyalty. Training costs will yield strong returns. Suited for core positions where the company is willing to invest long-term. Interviews typically go well, with trust building naturally between both sides.",
+    "do": ["Design a comprehensive training plan", "Provide a mentor system", "Evaluate learning willingness and stability in interviews", "Offer a long-term development commitment"],
+    "avoid": ["Offering only short-term contracts without development opportunities", "Investing in training without follow-up tracking"]
+  },
+  "yu": {
+    "sutra_key": "yu",
+    "headline": "Team Catalyst Candidate",
+    "context_note": "Yu day: auspicious for socializing",
+    "detail": "This candidate's social skills and team-building ability are their greatest assets. They can quickly energize team morale and build cross-departmental relationships. Suited for coordination and communication roles. Watch for over-giving — their manager should proactively check on their wellbeing.",
+    "do": ["Assign roles requiring cross-functional collaboration", "Observe team interaction skills in interviews", "Regularly check their energy levels post-hire", "Publicly recognize their contributions to team dynamics"],
+    "avoid": ["Draining their social energy without reciprocating", "Pushing all communication tasks onto one person"]
+  },
+  "sui": {
+    "sutra_key": "sui",
+    "headline": "Steady Deep-Focus Candidate",
+    "context_note": "Sui day: suitable for recovery only",
+    "detail": "This candidate excels at solving existing problems and quality assurance. A specialist in obstacle removal. Not suited for greenfield initiatives, but delivers stable results in maintaining and improving existing systems. Let them focus on their strengths after hiring.",
+    "do": ["Assign quality assurance and problem-solving responsibilities", "Support certification and skill development", "Evaluate problem-solving ability in interviews"],
+    "avoid": ["Assigning greenfield zero-to-one initiatives", "Expecting them to proactively develop new business"]
+  },
+  "an": {
+    "sutra_key": "an",
+    "headline": "Foundation Builder Candidate",
+    "context_note": "An day: auspicious for relocation and building",
+    "detail": "This candidate excels at establishing processes and building foundations. Ideal for expanding teams that need structure. They can bring order to chaos but are not suited for already-mature teams. Process-building experience is a strong plus in interviews.",
+    "do": ["Place in new teams or departments under construction", "Evaluate process design and system-building experience in interviews", "Give ample time to establish roots", "Value their infrastructure contributions"],
+    "avoid": ["Placing them in mature teams doing routine work", "Rushing short-term output expectations"]
+  },
+  "kai": {
+    "sutra_key": "kai",
+    "headline": "Problem Solver Candidate",
+    "context_note": "Kai day: only for overcoming obstacles",
+    "detail": "This candidate shines when facing tough problems. Suited for teams with hard challenges to tackle. Routine daily work will bore them, but hand them a tough problem and they'll deliver strong results. Consider project-based or contract positions.",
+    "do": ["Assign projects with clear hard problems to solve", "Use stress tests in interviews to evaluate resilience", "Grant sufficient autonomy for problem-solving", "Consider project-based or contract flexible arrangements"],
+    "avoid": ["Assigning routine maintenance work", "Expecting long-term stability in a predictable environment"]
+  },
+  "ki": {
+    "sutra_key": "ki",
+    "headline": "Internal Relations Candidate",
+    "context_note": "Ki day: auspicious for gatherings, not for external deals",
+    "detail": "This candidate's social skills are best applied internally. Strong at building cross-departmental networks and nurturing team relationships. Not suited for positions requiring extensive external negotiation or travel. Teams that value internal culture are a strong match.",
+    "do": ["Assign roles focused on team dynamics and internal communication", "Evaluate understanding of team culture in interviews", "Involve in cross-departmental projects post-hire"],
+    "avoid": ["Placing in frequent-travel or external-negotiation positions", "Assigning large contract or external client management"]
+  },
+  "sei": {
+    "sutra_key": "sei",
+    "headline": "Learning Achiever Candidate",
+    "context_note": "Sei day: auspicious for study and accomplishment",
+    "detail": "This candidate has strong learning ability and solid delivery skills. Thrives in companies with comprehensive training programs, able to continuously grow and produce results. Their learning track record and project completion rate are reliable interview indicators.",
+    "do": ["Provide comprehensive training resources", "Focus interview evaluation on learning ability and achievement records", "Assign tasks with clear delivery targets", "Offer regular opportunities to acquire new skills"],
+    "avoid": ["Expecting high output without providing learning resources", "Judging only on past experience while ignoring learning potential"]
+  },
+  "mei": {
+    "sutra_key": "mei",
+    "headline": "Culture Mirror Candidate",
+    "context_note": "Mei day: not suitable for major actions",
+    "detail": "This candidate is highly similar to the existing team — zero integration cost. But they won't bring new perspectives. Suited for teams needing stability, not for positions requiring innovation. Hiring them reinforces the existing culture; whether that's good depends on the team's current state.",
+    "do": ["Assess whether the team needs consistency or diversity right now", "Place in roles requiring high team consensus", "Pair with team members of different styles to balance homogeneity"],
+    "avoid": ["Adding more of the same type to an already-homogeneous team", "Expecting them to bring different perspectives or approaches"]
+  },
+  "gyo": {
+    "sutra_key": "gyo",
+    "headline": "Accumulation Phase Candidate",
+    "context_note": "Gyo day: actions don't bear immediate fruit",
+    "detail": "This candidate is currently in an energy accumulation phase — low short-term burst potential but building solid foundations. Suited for positions where immediate output isn't urgent and the company is willing to invest time in development. In a stable environment with time, they'll exceed expectations when their energy rebounds.",
+    "do": ["Assign steady-pace work that allows gradual accumulation", "Provide time and space for learning and recharging", "Don't pressure with short-term KPIs", "Patiently wait for the energy rebound"],
+    "avoid": ["Placing in high-pressure positions requiring immediate output", "Evaluating with short-term performance metrics"]
+  },
+  "tai": {
+    "sutra_key": "tai",
+    "headline": "Potential Development Candidate",
+    "context_note": "Tai day: not suitable for major actions",
+    "detail": "This candidate is a potential-type talent who develops best in mature systems. Suited for companies with comprehensive training programs to nurture their growth. Not suited for greenfield startup work. With an existing foundation and guidance, their potential will gradually emerge.",
+    "do": ["Place in positions with existing foundations to inherit", "Provide comprehensive training and a mentor", "Develop steadily within a mature team", "Allow sufficient growth time"],
+    "avoid": ["Assigning greenfield startup tasks", "Rushing for short-term results"]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "eishin": {
+    "description": "This candidate and the company form a mutual growth cycle. Both parties strengthen through collaboration, and retention is extremely high. The most ideal hiring match in Sukuyodo.",
+    "detailed": "Eishin represents a bidirectional value-creation relationship between company and candidate. The candidate naturally integrates and elevates the team's overall capability, while company resources accelerate the candidate's growth. Once this positive cycle is established, turnover risk is minimal. Fast-track hiring is recommended.",
+    "advice": "This is the highest-value candidate type. Shorten the interview process, present a competitive offer, and avoid losing them to competitors. After onboarding, assign core project participation to activate the positive cycle early.",
+    "tips": ["Shorten the hiring process and prioritize the offer", "Have core team members participate in interviews to confirm mutual fit", "Assign key projects post-hire to accelerate the growth cycle", "Plan a long-term development path to lock in retention"],
+    "avoid": ["Delaying with standard processes and losing the candidate to competitors", "Placing them on peripheral projects and wasting mutual growth potential", "Ignoring the candidate's growth needs while only demanding output"],
+    "good_for": ["Key positions on the core team", "Technical leads requiring long-term development", "Future management pipeline candidates"],
+    "description_classic": "Eishin: the supreme auspicious pairing. Both parties illuminate each other."
+  },
+  "gyotai": {
+    "description": "This candidate has a natural cultural rapport with the company. They ramp up quickly with a short adaptation period. Minimal friction needed to reach working capacity. Ideal for core positions requiring fast onboarding.",
+    "detailed": "Gyotai represents a karmic connection. In hiring, this rapport allows the candidate to quickly grasp the company's working style and cultural logic, resulting in low onboarding cost. The gyo party naturally drives team objectives; the tai party quickly absorbs team resources.",
+    "advice": "Leverage the natural rapport for low adjustment cost, but don't skip formal onboarding processes. Rapport doesn't eliminate the need for explicit communication, goal alignment, and expectation setting.",
+    "tips": ["Design a fast-track onboarding path to get the candidate productive early", "Leverage the rapport advantage by assigning cross-functional collaboration tasks", "Conduct regular formal goal alignment meetings rather than relying on assumed understanding"],
+    "avoid": ["Skipping formal onboarding because rapport seems strong", "Omitting expectation setting and performance conversations", "Assuming the candidate understands everything without support"],
+    "good_for": ["Urgent positions requiring fast onboarding", "Core team expansion", "Cross-functional coordination roles"],
+    "description_classic": "Gyotai: karmic bonds from past lives."
+  },
+  "mei": {
+    "description": "The candidate's culture aligns closely with the company — nearly identical thinking and working patterns. Zero integration barriers, but they won't bring new perspectives. Suitable for roles requiring high cultural alignment; not suitable for roles needing innovation.",
+    "detailed": "Mei means same mansion, same essence. The candidate's values and work style closely match the existing team, resulting in extremely low communication cost. However, the similarity means limited complementarity and no challenge to existing approaches.",
+    "advice": "If the team needs stability and consistency, this is a strong choice. If the team needs diverse perspectives or innovation, consider whether this candidate meets the requirement. After hiring, pair them with team members of different styles to avoid homogenization.",
+    "tips": ["Assess whether the team currently needs consistency or diversity", "After hiring, intentionally pair with a mentor or partner of a different style", "Use the candidate's natural cultural alignment to strengthen team cohesion"],
+    "avoid": ["Hiring a highly homogeneous candidate for a role that requires innovation", "Building the entire team with the same type, amplifying blind spots", "Ignoring the fact that the candidate won't bring new perspectives"],
+    "good_for": ["Positions where cultural fit is the top priority", "Decision-making roles requiring high team consensus", "Culture-carrier seed roles"],
+    "description_classic": "Mei: like a mirror reflection. Same thinking, no communication barriers."
+  },
+  "yusui": {
+    "description": "The candidate actively invests energy to uplift team morale, but the company may not reciprocate equally. Short-term performance will be strong, but there's a long-term burnout and turnover risk. Proactively monitor the candidate's energy levels.",
+    "detailed": "In yusui, the yu party actively outputs social energy while the sui party receives with limited reciprocation. In hiring, if the candidate is the yu party, they'll energize the team but gradually tire from the imbalance. If the candidate is the sui party, they'll enjoy team resources but their own energy gradually depletes.",
+    "advice": "Monitor the candidate's condition closely during the first six months. Yu-party candidates need regular positive feedback and recognition. Sui-party candidates need monitoring for drain signals. Establish regular 1-on-1 check-ins.",
+    "tips": ["Track adaptation closely during the first six months", "Set up regular 1-on-1s to proactively check energy levels", "Provide positive feedback and public recognition", "Don't let the candidate carry the team morale burden long-term"],
+    "avoid": ["Using the candidate as the sole source of team morale without reciprocating", "Missing the candidate's fatigue signals", "Expecting long-term retention in an imbalanced relationship without adjustments"],
+    "good_for": ["Short-term projects needing a team catalyst", "Roles with clear division of labor and support systems", "Organizations with strong employee care programs"],
+    "description_classic": "Yusui: yu side auspicious for socializing, sui side for recovery only."
+  },
+  "kisei": {
+    "description": "The candidate brings complementary skills and perspectives, filling capability gaps on the team. Requires a longer onboarding period with initial friction. After the adjustment period, they become a highly valuable team member.",
+    "detailed": "In kisei, the ki party faces pressure and grows, while the sei party strengthens through refinement. In hiring, the candidate's differences from the existing team create complementary value, but different thinking styles require more time to build effective collaboration.",
+    "advice": "In interviews, evaluate adaptability and learning willingness over immediate combat readiness. After hiring, assign an experienced buddy and allow at least three months of adaptation before evaluating performance.",
+    "tips": ["Focus interviews on learning ability and adaptability rather than immediate output", "Set up a buddy system to support integration", "Allow at least three months of adaptation buffer", "Initial friction doesn't mean poor fit — observe the adjustment process patiently", "Use the candidate's different perspectives to address team blind spots"],
+    "avoid": ["Concluding poor fit based on initial friction alone", "Evaluating complementary candidates on immediate-output standards during probation", "Expecting candidates to adapt on their own without support"],
+    "good_for": ["Teams with clear capability gaps to fill", "Stable teams that can accept longer onboarding periods", "Innovation-oriented roles requiring diverse perspectives"],
+    "description_classic": "Kisei: complementary pairing. Growth through pressure and refinement."
+  },
+  "ankai": {
+    "description": "The candidate may integrate quickly at first, but retention risk is the highest of all relationship types. The company continuously drains the candidate's energy, or the candidate continuously disrupts the company's stability. Consider a contract position first.",
+    "detailed": "Ankai is the highest-tension relationship in Sukuyodo. The an party continuously outputs energy to maintain stability while the kai party draws from it. In hiring, regardless of which side the candidate is on, long-term collaboration risk is high. Initial excitement and high output can mask the underlying drain; by the time problems surface, it's usually too late.",
+    "advice": "If hiring is necessary, use a contract or fixed-term arrangement first. Set clear performance milestones and mutual expectations, with formal evaluations at three and six months. Prepare backup plans.",
+    "tips": ["Prefer contract or fixed-term arrangements to reduce risk for both sides", "Set clear evaluation milestones at three and six months", "Have an experienced manager closely observe interaction dynamics", "Prepare backup plans to avoid gaps from sudden departure", "For an-party candidates, watch energy drain; for kai-party, watch team impact"],
+    "avoid": ["Offering a permanent long-term contract without an observation period", "Overlooking the drain risk beneath the initial excitement", "Assigning critical tasks to a high-risk hire without a backup plan"],
+    "good_for": ["Contract staffing for short-term high-pressure projects", "Special missions requiring disruptive approaches", "Project-based positions with clear end dates"],
+    "description_classic": "Ankai: the kai side 'nothing else is bearable.' High tension, handle with care."
+  }
+}

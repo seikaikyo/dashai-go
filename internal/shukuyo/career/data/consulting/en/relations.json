@@ -1,0 +1,56 @@
+{
+  "eishin": {
+    "description": "Consultant and project site lift each other up. You walk in and both sides start producing results fast. The site gives you a stage and resources; your deliverables exceed expectations. Client satisfaction runs high, and contract renewal is almost guaranteed.",
+    "detailed": "Eishin is the best possible match in consulting. Your expertise fills exactly what the site lacks, and the site's real-world environment builds your track record. A positive feedback loop forms during the engagement: delivery quality stays consistent, communication flows easily. The site manager will push for contract extension on their own.",
+    "advice": "The risk here is that everything goes too well. The client keeps renewing, and you end up as a de facto employee without employee benefits. Periodically check market rates and make sure your contract terms stay competitive.",
+    "tips": ["Deliver a visible quick win in your first week to build trust", "Proactively propose improvements beyond the contract scope", "Maintain regular check-ins with the site manager to gauge renewal intent", "Review contract terms quarterly to ensure they reflect your actual contribution"],
+    "avoid": ["Neglecting other client relationships because this one is easy", "Renewing multiple times without renegotiating your rate", "Forgetting you are an external consultant and blurring the boundary"],
+    "good_for": ["Medium to long-term resident consulting", "Technology adoption projects", "Sites that need consistent delivery quality"],
+    "description_classic": "Eishin: the supreme auspicious pairing. Ei means prosperity, Shin means harmony. When two meet, they radiate brilliance and all things proceed smoothly."
+  },
+  "gyotai": {
+    "description": "You and the site team click instantly. Almost zero ramp-up time. What takes others two weeks to figure out, you get by day three. The time you save translates directly into billable output.",
+    "detailed": "Gyotai's karmic bond translates into extremely low onboarding cost in consulting. The Gyo side carries a natural drive to push the site forward; the Tai side is naturally accepted by the team. Collaboration happens without heavy process, and handoff friction is minimal.",
+    "advice": "Good chemistry does not justify skipping documentation. As an external consultant, every decision and change needs a paper trail. When the site has personnel turnover, verbal understandings reset to zero. Written records protect you.",
+    "tips": ["Leverage your fast ramp-up to deliver value in the first week", "Document every decision; do not rely on verbal agreements alone", "Establish direct communication channels with key site members"],
+    "avoid": ["Skipping formal handoff processes", "Assuming the other side always understands your intent", "Using old communication patterns after the site manager changes"],
+    "good_for": ["Short-term projects that need fast ramp-up", "Sites with frequent handoffs", "Time-cost sensitive projects"],
+    "description_classic": "Gyotai: karmic bond from past lives. Gyo is what was built before; Tai is what is received now."
+  },
+  "mei": {
+    "description": "The site thinks exactly like you do. Zero communication barriers, but zero fresh perspective either. The problem: the client hired an external consultant specifically for insights they cannot generate internally.",
+    "detailed": "Mei is a double-edged sword in consulting. Being on the same wavelength means you grasp the site's pain points and constraints immediately, but your proposed solutions end up looking a lot like what they would have done themselves. The client starts wondering: what is the difference between hiring you and not?",
+    "advice": "You understand their problems faster than anyone else. That is your edge. But your deliverables must include angles they cannot see on their own. Deliberately bring in cross-industry cases and external frameworks so that being in sync becomes an accelerator, not a source of sameness.",
+    "tips": ["Use your alignment to quickly identify the core problem", "Deliberately add cross-industry perspectives and external frameworks to deliverables", "Make the client feel you see one step further, not in the same direction"],
+    "avoid": ["Just confirming what the site already knows", "Deliverables that lack external perspective", "Becoming the site's shadow instead of their consultant"],
+    "good_for": ["Sites that need rapid industry context understanding", "Short-term advisory with low communication overhead"],
+    "description_classic": "Mei: same mansion, same body. Like a mirror image. Thoughts and actions align; communication is effortless."
+  },
+  "yusui": {
+    "description": "You walk in and the site's morale improves, the atmosphere lifts. But all that energy comes from your own reserves. Fine for short engagements. Watch for burnout on anything past six months.",
+    "detailed": "In Yusui, the Yu side (consultant) actively outputs social energy and professional support. The site enjoys the input but gives limited feedback. In the first three months you feel needed. After six months, you feel like nothing you do is enough, while the site thinks everything is fine.",
+    "advice": "Your value lies in short-term energy and methodology injection. Set contracts at 3-6 months, deliver, and exit. If the client wants to renew, renegotiate the rate and reduce on-site hours.",
+    "tips": ["Ideal contract length is 3-6 months", "Go intensive early, shift to advisory mode later", "Renegotiate rate on renewal to reflect your drain", "Leave behind replicable SOPs so the site can run independently"],
+    "avoid": ["Open-ended on-site engagement", "Renewal terms identical to the first contract", "Mistaking the site's dependency for your value"],
+    "good_for": ["Short-term consulting projects", "Organizational culture improvement", "Early-stage team formation support"],
+    "description_classic": "Yusui: the Yu side benefits greatly from connection; the Sui side is suited only for healing and resolving troubles."
+  },
+  "kisei": {
+    "description": "Your expertise fills the exact gap the site has. This is what consulting is designed for. The adjustment period eats into some billable hours, but post-adjustment productivity is very high.",
+    "detailed": "Kisei's complementary nature is the core selling point in consulting. What the site lacks, you have. That is the reason the client pays. The Ki side faces pressure while adapting to the site's pace; the Sei side benefits from the consultant's expertise. The adjustment period typically runs 2-4 weeks, after which collaboration efficiency keeps improving.",
+    "advice": "The adjustment period is a necessary cost, but set expectations with the client upfront. First-month output will not be your best. After adjustment, your irreplaceability becomes obvious.",
+    "tips": ["Communicate the adjustment period expectation before engagement starts", "Focus the first month on understanding site context; do not rush big changes", "After adjustment, use data to demonstrate the efficiency improvement", "Emphasize your complementary value, not that you replace their people"],
+    "avoid": ["Launching major reforms on day one", "Over-promising deliverables during the adjustment period", "Letting the client interpret adjustment as incompetence"],
+    "good_for": ["Technical consulting", "Process improvement projects", "Sites needing external expertise"],
+    "description_classic": "Kisei: the complementary pairing. Ki endures pressure and grows; Sei refines through adjustment."
+  },
+  "ankai": {
+    "description": "Strong initial chemistry. The client is convinced you are the one they need. But the tension in this relationship amplifies over time. The consultant's advantage: when the contract ends, you can walk away clean.",
+    "detailed": "Ankai is actually safer in consulting than in employment. The Kai side's tendency to break existing patterns is a powerful catalyst in short-term projects. When the site needs an external force to break a deadlock, Ankai's tension is the value. The key is controlling exposure time: when the contract ends, leave. Do not renew too many times.",
+    "advice": "Your disruptive quality is an asset in the short term and a liability in the long term. Set contracts at three months or less, deliver, and leave. If the client wants renewal, assess your energy state honestly. If drain is noticeable, decline.",
+    "tips": ["Contracts should not exceed three months", "Focus on the core deadlock-breaking task from day one", "Exit immediately after delivery; do not linger", "Leave behind methodology, not personal dependency"],
+    "avoid": ["Renewing more than twice", "Taking on maintenance and operations roles after engagement", "Creating dependency on you personally rather than on the methodology you leave behind"],
+    "good_for": ["Crisis response", "Early-stage organizational change", "Breaking through technical debt deadlocks"],
+    "description_classic": "Ankai: the Kai side, all else is unbearable. An is stability, Kai is disruption. Great tension, to be used with restraint."
+  }
+}

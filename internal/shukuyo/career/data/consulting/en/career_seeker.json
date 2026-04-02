@@ -1,0 +1,90 @@
+{
+  "ei": {
+    "sutra_key": "ei",
+    "headline": "High-return engagement period",
+    "context_note": "Ei day: \"favorable for entering office and receiving appointment\"",
+    "detail": "Your input visibly improves the site, and deliverables exceed client expectations. This is the time to land high-value contracts. Propose boldly. Price confidently.",
+    "do": ["Propose improvements beyond contract scope", "Use your first deliverable to build trust, then pitch add-ons immediately", "Price to reflect your actual value; do not discount"],
+    "avoid": ["Competing on price", "Doing the bare minimum within the contract"]
+  },
+  "shin": {
+    "sutra_key": "shin",
+    "headline": "Trust-building period",
+    "context_note": "Shin day: \"favorable for making connections and settling commitments\"",
+    "detail": "The site manager has a good impression of you and is willing to provide resources and latitude. Good time to sign long-term or framework agreements. The client will proactively refer you to other departments or group companies.",
+    "do": ["Build a direct trust relationship with the site manager", "Negotiate framework or annual contracts", "Ask for referrals to other projects within the client organization"],
+    "avoid": ["Communicating only through the liaison without building decision-maker relationships", "Having a strong relationship but failing to extend it"]
+  },
+  "yu": {
+    "sutra_key": "yu",
+    "headline": "Network monetization period",
+    "context_note": "Yu day: \"favorable for making friends, greatly auspicious\"",
+    "detail": "Your professional network is your biggest pipeline right now. Attend industry events and tech communities. Opportunities surface through relationships. Take on projects that require multi-stakeholder coordination.",
+    "do": ["Attend industry events to build pipeline", "Take on projects requiring cross-departmental coordination", "Leverage existing client referrals"],
+    "avoid": ["Relying solely on placement agencies", "Over-investing in networking without converting to contracts"]
+  },
+  "sui": {
+    "sutra_key": "sui",
+    "headline": "Technical recharge period",
+    "context_note": "Sui day: \"suited only for resolving troubles and healing\"",
+    "detail": "Not the right time for new engagements. Invest in upskilling, certifications, and documenting past project methodologies. This investment becomes your pricing leverage in the next cycle.",
+    "do": ["Pursue professional certifications", "Document past projects into methodology papers", "Wrap up existing engagement deliverables cleanly"],
+    "avoid": ["Taking new engagements", "Negotiating rates", "Committing to new delivery timelines"]
+  },
+  "an": {
+    "sutra_key": "an",
+    "headline": "Foundation-building period",
+    "context_note": "An day: \"favorable for relocation, building gardens and homes\"",
+    "detail": "Good time to join a new site or change your resident assignment. Your stabilizing ability is what the site needs, especially teams in startup or transition phases. Focus on building processes and systems after you join.",
+    "do": ["Join sites building new teams", "Prioritize SOP and workflow setup after joining", "Help the site establish foundational infrastructure"],
+    "avoid": ["Frequently switching between sites", "Only firefighting without building lasting systems"]
+  },
+  "kai": {
+    "sutra_key": "kai",
+    "headline": "Deadlock-breaking period",
+    "context_note": "Kai day: \"suited for suppression and subduing adversaries; all else is unbearable\"",
+    "detail": "You deliver the most value when breaking through impasses. Pick sites with gnarly technical debt or organizational gridlock. Go in, solve the core problem, get out. Do not take on routine operations work.",
+    "do": ["Pick sites with clear pain points", "Focus on the core issue after joining; deliver quickly", "Exit after delivery; do not get pulled into operations"],
+    "avoid": ["Taking long-term routine operations engagements", "Absorbing miscellaneous tasks beyond the core mission"]
+  },
+  "ki": {
+    "sutra_key": "ki",
+    "headline": "Internal relationship period",
+    "context_note": "Ki day: \"favorable for socializing and gatherings\" + \"unfavorable for distant travel and trade\"",
+    "detail": "Channel your interpersonal skills into strengthening existing client relationships. Lunch with the site team, understand their real needs. Not the time for new business development or big deal negotiations.",
+    "do": ["Deepen existing client relationships", "Build informal communication channels with the site team", "Uncover latent needs for your next proposal"],
+    "avoid": ["Cold-calling new clients", "Negotiating large contracts", "Juggling too many sites simultaneously"]
+  },
+  "sei": {
+    "sutra_key": "sei",
+    "headline": "Delivery and achievement period",
+    "context_note": "Sei day: \"favorable for studying and achieving results, all auspicious\"",
+    "detail": "Learning and delivery are both in your favor. New skills translate directly into site output. Take on projects with clear acceptance criteria. You will hit deadlines or beat them.",
+    "do": ["Take projects with clear milestones", "Learn new skills and apply them to the site immediately", "Show delivery results with data"],
+    "avoid": ["Taking projects with vague acceptance criteria", "Learning without applying"]
+  },
+  "mei": {
+    "sutra_key": "mei",
+    "headline": "Preparation and positioning period",
+    "context_note": "Mei day: \"unfavorable for taking action on all matters\"",
+    "detail": "Not the time to push. Spend this period reviewing your consulting methodology, updating your portfolio, and reassessing your market positioning. You will be better prepared when the next good opportunity appears.",
+    "do": ["Review and refine your consulting methodology", "Update your portfolio and case studies", "Reassess your market positioning and rate"],
+    "avoid": ["Actively bidding on projects", "Taking below-market engagements", "Filling your calendar out of anxiety"]
+  },
+  "gyo": {
+    "sutra_key": "gyo",
+    "headline": "Energy accumulation period",
+    "context_note": "Gyo day: \"actions yield no results, greatly unfavorable\"",
+    "detail": "Everything feels like running against the wind right now. Channel your energy into industry trend research and learning new frameworks. Build ammunition for the next business cycle. Do not chase revenue out of anxiety.",
+    "do": ["Research industry trends", "Learn new technical frameworks", "Organize past engagements into a knowledge base"],
+    "avoid": ["Taking engagements with tight deadlines", "Committing to high-risk delivery targets"]
+  },
+  "tai": {
+    "sutra_key": "tai",
+    "headline": "Guided learning period",
+    "context_note": "Tai day: \"unfavorable for taking action on all matters\"",
+    "detail": "Join a site with mature methodology and learn from their existing systems. You are the potential type. The hands-on experience you accumulate now becomes the capital for independent engagements later.",
+    "do": ["Join large-scale sites with mature systems", "Pair with a senior consultant to learn", "Accumulate hands-on experience within existing frameworks"],
+    "avoid": ["Taking on high-risk projects solo", "Forcing yourself to prove independent value too early"]
+  }
+}

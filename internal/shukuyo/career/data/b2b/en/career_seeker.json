@@ -1,0 +1,90 @@
+{
+  "ei": {
+    "sutra_key": "ei",
+    "headline": "Market Expansion Alliance",
+    "context_note": "Ei day: auspicious for career advancement",
+    "detail": "The partnership can rapidly open new markets. Co-branding events, joint product launches, strategic investments — all yield above-average returns right now. Good timing to sign framework agreements.",
+    "do": ["Launch co-branding activities or joint product releases", "Propose strategic investments or joint venture deals", "Build joint market expansion plans", "Pursue joint case studies with the partner's flagship clients"],
+    "avoid": ["Missing the expansion window with small-scale partnerships", "Being overly conservative on profit sharing"]
+  },
+  "shin": {
+    "sutra_key": "shin",
+    "headline": "Deep Commitment Alliance",
+    "context_note": "Shin day: auspicious for forming bonds",
+    "detail": "The other party is willing to invest resources in building a long-term relationship. Ideal for negotiating exclusivity, long-term supply contracts, and technology licensing.",
+    "do": ["Propose a long-term strategic partnership framework", "Negotiate technology licensing or IP sharing agreements", "Establish regular executive dialogue mechanisms", "Co-invest in shared R&D infrastructure"],
+    "avoid": ["Taking short-term profits and exiting", "Rejecting the other party's investment goodwill"]
+  },
+  "yu": {
+    "sutra_key": "yu",
+    "headline": "Ecosystem Building Alliance",
+    "context_note": "Yu day: auspicious for socializing",
+    "detail": "Find partnership opportunities through industry networking and ecosystem cultivation. Joint trade shows, industry forums, and ecosystem events surface natural partners.",
+    "do": ["Co-attend industry trade shows and forums", "Build an ecosystem partner network", "Co-host industry events for visibility", "Build trust through mutual customers"],
+    "avoid": ["Networking without setting partnership boundaries", "Treating every relationship as a deep partnership"]
+  },
+  "sui": {
+    "sutra_key": "sui",
+    "headline": "Internal Consolidation Period",
+    "context_note": "Sui day: suitable for recovery only",
+    "detail": "Not the right time to initiate new external partnerships. Focus on auditing existing partner relationships — review contract fairness, trim unprofitable alliances, renegotiate imbalanced terms.",
+    "do": ["Audit existing partners' input-output ratios", "Trim partnerships that don't deliver value", "Renegotiate imbalanced contract terms", "Compile partnership performance data for internal review"],
+    "avoid": ["Launching new strategic alliances", "Signing new long-term contracts", "Committing new resources in negotiations"]
+  },
+  "an": {
+    "sutra_key": "an",
+    "headline": "Foundation Building Alliance",
+    "context_note": "An day: auspicious for relocation and construction",
+    "detail": "Good timing to build partnership infrastructure. Sign foundational agreements, deploy shared platforms, set up joint offices, implement collaboration systems. Solid foundations make everything after easier.",
+    "do": ["Build partnership SOPs and process frameworks", "Deploy shared technology platforms", "Set up joint project management mechanisms", "Partner with companies expanding into new markets"],
+    "avoid": ["Rushing for results while skipping infrastructure", "Scaling the partnership before processes mature"]
+  },
+  "kai": {
+    "sutra_key": "kai",
+    "headline": "Disruption Alliance",
+    "context_note": "Kai day: only for overcoming obstacles",
+    "detail": "Good timing to resolve tough partnership problems: clear disputed contracts, handle breach situations, terminate unhealthy partnerships. Destructive but necessary actions.",
+    "do": ["Address contract breaches or disputes", "Terminate unhealthy partner relationships", "Renegotiate clearly unfair terms", "Engage legal counsel for contract disputes"],
+    "avoid": ["Initiating new partnerships at this time", "Expecting day-to-day partnership operations to run smoothly"]
+  },
+  "ki": {
+    "sutra_key": "ki",
+    "headline": "Relationship Maintenance",
+    "context_note": "Ki day: auspicious for gatherings, not for major deals",
+    "detail": "Direct social energy toward partner relationship maintenance. Host partner dinners, attend the other company's events, build informal trust channels. Not suitable for major deal negotiations.",
+    "do": ["Host partner relationship maintenance events", "Attend the other company's corporate events for networking", "Use informal settings to understand the partner's real needs"],
+    "avoid": ["Negotiating large contracts or investment deals", "Making major partnership direction decisions"]
+  },
+  "sei": {
+    "sutra_key": "sei",
+    "headline": "Shared Learning Alliance",
+    "context_note": "Sei day: auspicious for study and accomplishment",
+    "detail": "Both parties learning and delivering together goes smoothly. Ideal for joint R&D, shared training programs, and knowledge exchange initiatives. Emphasizes mutual growth over short-term profit.",
+    "do": ["Launch joint R&D projects", "Build shared training programs", "Exchange industry research and market insights", "Co-publish white papers or industry reports"],
+    "avoid": ["All talk, no action", "Ignoring quantification and verification of results"]
+  },
+  "mei": {
+    "sutra_key": "mei",
+    "headline": "Observation Period",
+    "context_note": "Mei day: not suitable for major actions",
+    "detail": "Not the time to launch partnerships, but ideal for evaluating potential partners. Conduct market research, analyze competitors' alliance ecosystems, and inventory your own negotiation leverage.",
+    "do": ["Evaluate potential partners' capabilities and intentions", "Analyze the market's partnership ecosystem", "Inventory your core competencies and negotiation leverage"],
+    "avoid": ["Proactively launching strategic alliance proposals", "Making major partnership decisions with insufficient information"]
+  },
+  "gyo": {
+    "sutra_key": "gyo",
+    "headline": "Leverage Accumulation Period",
+    "context_note": "Gyo day: actions don't bear fruit",
+    "detail": "Everything partnership-related feels like pushing against the wind. Focus on building negotiation leverage: strengthen your product, expand your customer base, build technical moats. Move when you have enough cards to play.",
+    "do": ["Strengthen core capabilities and market position", "Accumulate customer case studies and data", "Research potential partners' weaknesses and needs"],
+    "avoid": ["Launching partnerships with insufficient leverage", "Accepting imbalanced partnership terms under pressure"]
+  },
+  "tai": {
+    "sutra_key": "tai",
+    "headline": "Legacy Partnership Continuation",
+    "context_note": "Tai day: not suitable for major actions",
+    "detail": "Best suited for inheriting existing partnership frameworks and developing steadily. Join established industry alliances, take over predecessor's partner relationships, and deepen cooperation within existing agreements.",
+    "do": ["Join existing industry alliances or ecosystems", "Inherit and optimize existing partnership relationships", "Develop steadily within mature partnership frameworks"],
+    "avoid": ["Building entirely new partnerships from scratch", "Rushing to change existing partnership terms and direction"]
+  }
+}

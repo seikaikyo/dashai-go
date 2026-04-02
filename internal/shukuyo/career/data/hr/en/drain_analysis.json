@@ -1,0 +1,178 @@
+{
+  "mei": {
+    "relationship": "Same mansion, same frequency — candidate and company are in sync with no external forces at play",
+    "daily_feel": "Candidate adapts naturally with low communication cost, almost no integration time needed",
+    "energy_flow_desc": "Bidirectional and balanced — neither party drains the other",
+    "long_term_risk": "Too comfortable may lead to stagnation; team lacks growth stimulus",
+    "growth": "Low. Company won't push the candidate to grow, and the candidate won't bring new stimulus",
+    "stability": "High. The balance of mei provides long-term stability with low turnover risk",
+    "bad_year_impact": "Bad years don't create additional drain from the company; impact is minimal",
+    "fit_for": "Teams needing stability and consistency; best when the candidate has strong self-motivation",
+    "hr": {
+      "relationship": "Same mansion, candidate and company frequencies aligned",
+      "daily_feel": "Zero integration cost; no special onboarding support needed",
+      "bad_year_impact": "No additional retention risk during bad years",
+      "fit_for": "Culture-fit-priority positions; most effective when the candidate is highly self-driven"
+    }
+  },
+  "gyo": {
+    "relationship": "Past-life karma — candidate naturally carries a sense of mission to drive the company's objectives",
+    "daily_feel": "Candidate invests effort voluntarily without special motivation needed",
+    "energy_flow_desc": "Candidate outputs slightly, but karmic support prevents excessive fatigue",
+    "long_term_risk": "Gyo party tends to over-invest and neglect personal needs; HR should proactively monitor work-life balance",
+    "growth": "Medium. Candidate grows through driving company objectives, but direction may not align with their own preferences",
+    "stability": "Medium-high. Karmic relationship provides underlying stability; retention is reasonable",
+    "bad_year_impact": "Bad years make the sense of mission heavier but won't cause collapse. Moderate pressure relief from HR is sufficient",
+    "fit_for": "Teams with long-term goals needing mission-driven talent",
+    "hr": {
+      "relationship": "Candidate has a natural drive to advance company objectives; no additional motivation needed",
+      "daily_feel": "Candidate self-invests but may neglect their own needs",
+      "bad_year_impact": "Bad years increase mission burden; HR should proactively relieve pressure",
+      "fit_for": "Long-term planning roles; managers need to regularly check on work-life balance"
+    }
+  },
+  "tai": {
+    "relationship": "Karmic receiver — the company naturally provides care and support to the candidate",
+    "daily_feel": "Candidate settles in quickly with a sense of being supported",
+    "energy_flow_desc": "Company provides slight output; candidate is the receiver",
+    "long_term_risk": "Candidate may become overly dependent on company support, reducing self-reliance",
+    "growth": "Medium. Passive growth, following the team's pace",
+    "stability": "Medium-high. Karmic support exists but full dependence isn't sustainable",
+    "bad_year_impact": "Company acts as a buffer during bad years; less impact than going it alone",
+    "fit_for": "Teams with strong training systems; best when the candidate accepts guidance well",
+    "hr": {
+      "relationship": "Company naturally provides support; candidate receives smoothly",
+      "daily_feel": "Fast onboarding speed with short adaptation period",
+      "bad_year_impact": "Company acts as buffer during bad years; low retention risk",
+      "fit_for": "Teams with mentor systems; suited for entry-to-mid-level talent needing guidance"
+    }
+  },
+  "ei": {
+    "relationship": "Candidate and company mutually invest resources, creating a positive growth cycle",
+    "daily_feel": "Candidate's contributions are reciprocated; team also benefits — a win-win",
+    "energy_flow_desc": "Candidate actively invests; company feedback prevents candidate fatigue",
+    "long_term_risk": "If company-side feedback stops, candidate experiences sudden emptiness and turnover intent spikes",
+    "growth": "High. Bidirectional improvement — the best talent development environment",
+    "stability": "Medium-high. Stable as long as the positive cycle continues; deteriorates quickly if interrupted",
+    "bad_year_impact": "Bad years may weaken the cycle but won't reverse it into drain",
+    "fit_for": "Teams with strong feedback systems; organizations committed to mutual investment",
+    "hr": {
+      "relationship": "Candidate and company form a bidirectional value-creation cycle",
+      "daily_feel": "Candidate is productive and fulfilled; team morale trends positive",
+      "bad_year_impact": "Cycle weakens during bad years but doesn't reverse; maintaining basic feedback stabilizes retention",
+      "fit_for": "Key positions on the core team; company must maintain feedback mechanisms for retention"
+    }
+  },
+  "shin": {
+    "relationship": "Company invests resources to develop the candidate; candidate is the beneficiary",
+    "daily_feel": "Candidate feels valued and nurtured; quick to settle into the role",
+    "energy_flow_desc": "Company actively invests; candidate benefits",
+    "long_term_risk": "Candidate may become overly dependent on company mentoring, lacking independence after departure",
+    "growth": "High. Passive but effective growth; candidate's ability to internalize is key",
+    "stability": "High. Shin position provides stable benefits; retention is strong",
+    "bad_year_impact": "Bad years may reduce investment effectiveness but won't reverse into draining the candidate",
+    "fit_for": "Companies willing to invest in talent development; highest ROI when candidate has strong learning ability",
+    "hr": {
+      "relationship": "Company invests in development; candidate quickly absorbs and grows",
+      "daily_feel": "Candidate has a sense of belonging and growth; satisfaction is high",
+      "bad_year_impact": "Bad years weaken development effects but won't trigger departure",
+      "fit_for": "Positions with clear training budgets and defined career paths"
+    }
+  },
+  "yu": {
+    "relationship": "Candidate is the giver — team draws atmosphere and social energy from them",
+    "daily_feel": "Candidate drives team relationships proactively, but fatigue isn't easily noticed",
+    "energy_flow_desc": "Candidate continuously outputs social energy; team receives. Candidate's fatigue may go undetected",
+    "long_term_risk": "Effective at the social layer only; candidate's professional depth needs separate attention",
+    "growth": "Medium. Social skills grow but professional depth requires separate arrangements",
+    "stability": "Medium. Candidate's sense of over-giving accumulates; periodic recharging needed",
+    "bad_year_impact": "Bad years reduce candidate's social energy; team atmosphere may decline accordingly",
+    "fit_for": "Organizations valuing team culture, but managers must proactively care for candidate's energy state",
+    "hr": {
+      "relationship": "Candidate is the team's social lubricant, but drain isn't easily visible",
+      "daily_feel": "Candidate energizes the atmosphere, but managers should proactively watch for fatigue signals",
+      "bad_year_impact": "Bad years reduce social energy; manager should step in to sustain team morale",
+      "fit_for": "Teams with employee care mechanisms; manager consciously reciprocates the candidate's contributions"
+    }
+  },
+  "sui": {
+    "relationship": "Company is the yu party investing actively, but candidate is the sui party being continuously drained",
+    "daily_feel": "Company provides resources and care, but candidate's capacity is limited; fatigue accumulates gradually",
+    "energy_flow_desc": "Company invests heavily; candidate's returns become strained. First year is the peak, then declining",
+    "long_term_risk": "Sui party 'should not relocate or travel' — drained to the point of wanting to leave but unable to",
+    "growth": "High but passive. Company pushes candidate's growth, but candidate has no say in direction",
+    "stability": "Medium-low. The comfort of yusui diminishes over time; fatigue accumulates",
+    "bad_year_impact": "Bad year plus sui party equals double drain; turnover risk is extremely high",
+    "fit_for": "Short-term contracts are safer than long-term hires; can extend observation if candidate has strong stress tolerance",
+    "hr": {
+      "relationship": "Company investment is high but candidate is the drained party; long-term retention risk exists",
+      "daily_feel": "Initial performance is strong, but output declines after six months; manager should be prepared",
+      "bad_year_impact": "Bad years are the turnover peak; HR must prepare succession plans in advance",
+      "fit_for": "Short-term contracts with clear exit mechanisms, or candidates with proven stress tolerance"
+    }
+  },
+  "an": {
+    "relationship": "Candidate leads team stability but must continuously output energy to maintain it",
+    "daily_feel": "Candidate holds the umbrella — stabilizes the situation while the team depends on their steady output",
+    "energy_flow_desc": "Candidate continuously outputs to maintain stability; team draws security from it",
+    "long_term_risk": "An party's continuous output goes unnoticed; by the time fatigue hits, they're already overdrawn",
+    "growth": "Medium. Management skills grow, but candidate gets locked into the stabilizer role",
+    "stability": "Surface high, actual drain. Stable while candidate holds up; collapses when they can't",
+    "bad_year_impact": "Bad years double the stabilization pressure; candidate's departure or burnout risk increases",
+    "fit_for": "Suited when candidate is skilled in management and can set boundaries; otherwise they'll be drained",
+    "hr": {
+      "relationship": "Candidate is the pillar of team stability, but drain is hidden",
+      "daily_feel": "Team appears stable on the surface, but candidate's burnout isn't easily visible",
+      "bad_year_impact": "Bad years double the stabilization pressure; HR must proactively intervene to reduce load",
+      "fit_for": "Management positions with clear boundary-setting and rotation mechanisms"
+    }
+  },
+  "kai": {
+    "relationship": "Company continuously extracts energy from the candidate — 'nothing else is bearable'",
+    "daily_feel": "Not noticeable at first; after six months, nothing the candidate does feels sufficient",
+    "energy_flow_desc": "Company absorbs the candidate's stability; candidate's energy drains one-way",
+    "long_term_risk": "'Nothing else is bearable' — after 2-3 years it becomes very difficult",
+    "growth": "Low. All energy is being extracted; no capacity left for growth",
+    "stability": "Low. Kai party is the most unstable position; departure could happen anytime",
+    "bad_year_impact": "Bad year plus kai party equals high turnover risk — potentially the career lowest point",
+    "fit_for": "Long-term hiring is not recommended. If necessary, use short-term contracts with exit mechanisms",
+    "hr": {
+      "relationship": "Company continuously drains candidate's energy; lowest retention rate of all pairings",
+      "daily_feel": "Candidate's output starts declining after six months; visible signs of strain",
+      "bad_year_impact": "Bad year plus kai party means near-certain departure; HR must arrange succession in advance",
+      "fit_for": "Short-term contract projects only; absolutely not for critical positions requiring stability"
+    }
+  },
+  "ki": {
+    "relationship": "Company applies pressure to drive candidate's growth — a pressure-based interaction model",
+    "daily_feel": "Candidate feels challenged; stimulating short-term but fatiguing long-term",
+    "energy_flow_desc": "Company applies pressure; candidate absorbs. Drain isn't low but there's growth return",
+    "long_term_risk": "Ki party's pressure tolerance has limits; beyond that, growth becomes harm",
+    "growth": "High but with a cost. Pressure-driven growth that needs adequate rest mechanisms",
+    "stability": "Medium. Stable pressure provides good stimulus; excessive pressure causes collapse",
+    "bad_year_impact": "Bad year pressure may crush rather than push the candidate; requires special attention",
+    "fit_for": "Suited when candidate has strong stress tolerance and self-regulation; company should provide rest opportunities",
+    "hr": {
+      "relationship": "Company drives candidate growth through pressure; precise calibration of pressure intensity is required",
+      "daily_feel": "Candidate's short-term growth is visible, but manager must watch for the fatigue tipping point",
+      "bad_year_impact": "Bad year pressure may overwhelm the candidate; HR should provide stress relief support",
+      "fit_for": "Teams with strong pressure management and leave policies"
+    }
+  },
+  "sei": {
+    "relationship": "Candidate grows through friction with the company; becomes increasingly stronger after adaptation",
+    "daily_feel": "Candidate is uncomfortable initially; after adapting, they realize they've become stronger",
+    "energy_flow_desc": "Company's characteristics refine the candidate; candidate passively strengthens with low drain",
+    "long_term_risk": "Sei party risk is low, but an initial adaptation period is needed",
+    "growth": "High. Growth after friction is solid and lasting",
+    "stability": "High. Sei party is one of the most stable positions after the adjustment period",
+    "bad_year_impact": "Bad years intensify the friction feeling but won't cause collapse",
+    "fit_for": "Best when the candidate can tolerate initial discomfort and take a long-term view",
+    "hr": {
+      "relationship": "Candidate grows steadily through friction; later-stage performance keeps improving",
+      "daily_feel": "Patience needed early on; clear progress visible after three months",
+      "bad_year_impact": "Bad years increase friction intensity but don't affect retention willingness",
+      "fit_for": "Teams willing to give the candidate adaptation time; high long-term returns"
+    }
+  }
+}

@@ -6,7 +6,7 @@ import (
 	"sync"
 )
 
-//go:embed data/*.json data/employment/*/*.json
+//go:embed data/*.json data/employment/*/*.json data/consulting/*/*.json data/outsourcing/*/*.json data/b2b/*/*.json data/hr/*/*.json data/headhunter/*/*.json
 var dataFS embed.FS
 
 // --- Cached data loading ---

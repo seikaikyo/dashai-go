@@ -1,0 +1,30 @@
+{
+  "ankai": [
+    "Client is asking for a third renewal or more, and your drain is already obvious",
+    "You were brought in to break a deadlock but are now being asked to do maintenance and operations",
+    "The site has become dependent on you personally, not on the methodology you left behind",
+    "Bad year overlaps with an Ankai contract — when exit timing arrives, leave without hesitation"
+  ],
+  "yusui": [
+    "Contract has passed six months and your fatigue is visible but the site has not noticed",
+    "Renewal terms are identical to the original contract without reflecting your drain",
+    "The site takes your contribution for granted and gives no proactive feedback",
+    "You feel like nothing is enough even though all KPIs are being met"
+  ],
+  "kisei": [
+    "Client questions your competence in the first month — this is a normal adjustment period reaction",
+    "Adjustment period consumed too many billable hours and contract margins are gone",
+    "Client expects full-speed output from day one with no room for adjustment"
+  ],
+  "mei": [
+    "Client is starting to question the need for an external consultant",
+    "Your deliverables are not meaningfully different from what the internal team could produce",
+    "Renewal motivation has shifted from professional value to mere capacity fill"
+  ],
+  "gyotai": [
+    "You are investing beyond contract scope without billing for the extra effort",
+    "Site personnel changed and all the verbal understandings you built are gone",
+    "Good chemistry led you to skip written documentation, and now there is no evidence when issues arise"
+  ],
+  "eishin": []
+}

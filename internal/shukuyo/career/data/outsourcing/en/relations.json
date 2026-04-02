@@ -1,0 +1,56 @@
+{
+  "eishin": {
+    "description": "Both companies drive each other's business growth. The combined output exceeds what either could achieve alone. The most ideal outsourcing combination, suited for long-term retainer contracts or annual engagements.",
+    "detailed": "Eishin in an outsourcing context represents a mutually beneficial business relationship. Your deliverables directly boost the client's revenue, and their feedback and resources continuously improve your team. Contract renewal rates are high because both sides have incentive to maintain quality. Acceptance criteria are clear, payments arrive on time, and scope changes go through formal processes.",
+    "advice": "This client relationship is worth investing in, but don't let smooth sailing erode your contract discipline. Review collaboration results regularly and proactively propose improvements. Show the client you're a strategic partner, not just an executor.",
+    "tips": ["Push for annual contracts or long-term retainers to lock in stable revenue", "Share industry insights proactively to elevate your strategic value in the client's eyes", "Establish regular collaboration reviews backed by ROI data", "Turn this client into a benchmark case study for acquiring similar clients"],
+    "avoid": ["Relying on verbal agreements because the relationship is good, neglecting written contracts", "Concentrating all resources on a single client, losing negotiation leverage", "Stopping proactive proposals and becoming a passive order-taker"],
+    "good_for": ["Long-term technical advisory contracts", "Annual engagement partnerships", "Joint proposals targeting third-party clients"],
+    "description_classic": "Eishin: the most auspicious pairing. Ei means prosperity, Shin means harmony. When two companies meet, they generate mutual brilliance and all matters proceed smoothly."
+  },
+  "gyotai": {
+    "description": "Both companies share a natural alignment on business direction. Expectations around deliverables require minimal back-and-forth. Low friction, well-suited for deep technical collaboration.",
+    "detailed": "Gyotai in an outsourcing context represents a high-rapport working relationship. You grasp the client's needs without multiple rounds of requirement gathering, and first-draft deliverables hit the mark. This dramatically reduces early-stage communication costs, but the ease can lead to neglecting documentation.",
+    "advice": "High rapport doesn't mean you can skip contracts and requirement specs. Everything confirmed verbally must go into meeting minutes. When disputes arise later, you need a paper trail.",
+    "tips": ["Leverage low communication costs to accelerate project kickoff", "Even with great rapport, confirm every scope change in writing", "This client is ideal for deep technical collaboration such as joint R&D"],
+    "avoid": ["Skipping requirement specification documents because rapport is good", "Bypassing change management processes", "Making verbal commitments without records"],
+    "good_for": ["Deep technical collaboration", "Joint R&D projects", "Fast-start project engagements"],
+    "description_classic": "Gyotai: a bond from past karmic connection. Gyo represents past actions, Tai represents present reception. The two companies share innate rapport and deliver smoothly."
+  },
+  "mei": {
+    "description": "Both companies have too-similar capabilities. Why would the client outsource what they can do themselves? Differentiation is the core challenge in this relationship.",
+    "detailed": "Mei in an outsourcing context represents the risk of commoditization. Your tech stack, target market, and even pricing logic overlap heavily with the client's internal team. The client may only be outsourcing because of a temporary capacity gap. Once they hire internally, they won't need you. There won't be much conflict during the engagement, but there won't be any surprises either.",
+    "advice": "Identify what differentiates you from the client's internal team. Emphasize speed, niche expertise, or cost structure advantages. If you can't find a differentiator, this client's long-term value is limited.",
+    "tips": ["Define your differentiation clearly and avoid competing for the same work as the client's internal team", "Emphasize external perspective and cross-industry experience", "Consider taking on the unglamorous work the client's team doesn't want to do, building irreplaceability"],
+    "avoid": ["Competing directly with the client's internal team for the same scope", "Racing to the bottom on price. That road has no end", "Assuming the client will always need you"],
+    "good_for": ["Short-term capacity augmentation", "Specific project external support", "Areas the client's internal team doesn't want to touch"],
+    "description_classic": "Mei: same constellation, same essence, like a mirror reflection. The two companies share similar capabilities and must find alternative paths."
+  },
+  "yusui": {
+    "description": "Your team over-delivers while the client treats it as standard service. Margins get squeezed and scope creep risk is high. The initial engagement goes smoothly, but watch the contract boundaries.",
+    "detailed": "Yusui in an outsourcing context represents an imbalanced value exchange. The Yu side (you) unconsciously does extra work — free technical consultations, additional testing rounds, weekend rushes. The Sui side (client) enjoys these extras but won't voluntarily pay more. Over time, your team's fatigue accumulates and profits erode.",
+    "advice": "Spell out service scope and change pricing in the contract. Every time the client requests a 'small tweak,' assess whether it falls outside the original scope. Goodwill is fine, but it should come with a price tag.",
+    "tips": ["Define delivery scope and acceptance criteria explicitly in the contract", "Route all change requests through a formal CR process with hours and pricing attached", "Regularly compare actual hours vs. contracted hours; negotiate add-on fees when overruns appear", "Some goodwill over-delivery in the first few engagements is acceptable, but normalize pricing from year two"],
+    "avoid": ["Verbally agreeing to 'just do it on the side'", "Rationalizing extra work as an investment in the client relationship", "Discovering at project end that your margin is negative"],
+    "good_for": ["Initial client acquisition engagements", "Short-term projects to demonstrate capability", "Fixed-scope projects with clear SOW"],
+    "description_classic": "Yusui: the Yu side benefits greatly from connections, while the Sui side is suited only for resolving difficulties. In outsourcing, the Yu side predominates and must set boundaries to prevent drain."
+  },
+  "kisei": {
+    "description": "The two companies' services are complementary — one does frontend, the other backend; one designs, the other develops. High outsourcing fit, but the initial negotiation period drags on.",
+    "detailed": "Kisei in an outsourcing context represents a complementary partnership. Your strengths precisely cover the client's weak spots, giving your service a clear value position. But complementarity also means both sides think in different frameworks. Early-stage alignment on specs, tool selection, and communication cadence takes significant time.",
+    "advice": "Be patient through the initial alignment period. Once both sides establish working rapport, this becomes the most margin-healthy collaboration type — because what you do, the client genuinely cannot.",
+    "tips": ["Invest time upfront in spec alignment and tool selection. This investment pays off", "Establish a shared project management platform and communication SOP", "Use the first small project as an alignment period rather than jumping straight into a large engagement", "After alignment, push for a long-term contract. Switching suppliers is costly for the client too"],
+    "avoid": ["Giving up because early communication is difficult", "Skipping the alignment period and jumping into large projects", "Assuming the other side understands your terminology and workflow"],
+    "good_for": ["Complementary technical partnerships", "Frontend-backend split outsourcing", "Design and development division of work"],
+    "description_classic": "Kisei: a complementary pairing. The Ki side bears pressure and grows, the Sei side refines through alignment. When two companies complement each other, results are doubled."
+  },
+  "ankai": {
+    "description": "During the contract period, both sides form tight dependency, but one side gets its value continuously drained. Payment delays, scope explosions, and endless revisions are the daily reality of this relationship.",
+    "detailed": "Ankai in an outsourcing context represents high-risk contractual dependency. The An side keeps pouring resources into keeping the project running while the Kai side piles on requirements without adding budget. Contract terms get weaponized by the Kai side — vague acceptance criteria become excuses for infinite revisions, 'maintenance included' becomes permanent free support. The most dangerous part: by the time you're halfway through the project, you've sunk too much cost to walk away.",
+    "advice": "Contract terms must be strict, payment conditions must be phased, and acceptance criteria must be quantified. If the other side starts blurring scope or pushing prices down during contract negotiation, that's a warning sign. Short-term projects can take the risk; long-term contracts need serious deliberation.",
+    "tips": ["Contracts must include explicit scope, timeline, acceptance criteria, and termination clauses", "Use upfront payment plus milestone-based billing. Never do full post-delivery payment", "Compare actual investment vs. contract budget monthly; trigger renegotiation at 10% overrun", "Set up an exit mechanism so you don't get trapped"],
+    "avoid": ["Signing contracts with vague scope", "Accepting 'we'll figure out the price after delivery' terms", "Making unlimited concessions to maintain the relationship", "Betting all resources on this single client"],
+    "good_for": ["Short-term high-pressure deliveries", "Projects with explicit end dates", "Situations where contract terms are balanced and rigorous"],
+    "description_classic": "Ankai: the Kai side finds everything beyond intolerable. An means stability, Kai means destruction. In outsourcing, contracts must be strict to prevent drain."
+  }
+}

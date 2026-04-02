@@ -1,0 +1,90 @@
+{
+  "ei": {
+    "sutra_key": "ei",
+    "headline": "High-value client acquisition window",
+    "context_note": "Ei day: 'favorable for taking office and receiving appointment'",
+    "detail": "This is the best timing to pursue high-value clients. Proposals, quotes, and contract negotiations all flow smoothly. The other side sees your strategic value, not just your price. Prepare case studies and ROI data, then go on the offensive.",
+    "do": ["Proactively pitch target clients with complete service proposals and success stories", "Price boldly — the client is evaluating value, not cost", "Push for annual contracts or long-term retainer agreements", "Compile past deliverables into benchmark case studies"],
+    "avoid": ["Waiting passively for clients to come to you", "Using low-price strategies to win bids"]
+  },
+  "shin": {
+    "sutra_key": "shin",
+    "headline": "Client trust building window",
+    "context_note": "Shin day: 'favorable for forming connections and establishing commitments'",
+    "detail": "The client is willing to give you a real opportunity, not just a trial run. This is the right time to sign formal contracts and negotiate long-term collaboration frameworks. The trust built during this period becomes the foundation for future renewals.",
+    "do": ["Seize the chance to upgrade from trial to formal contract", "Demonstrate stable delivery capability and professional attitude", "Share industry insights proactively to show you're more than a vendor"],
+    "avoid": ["Treating this as a one-off engagement with no follow-through", "Neglecting contract details and relying on verbal promises"]
+  },
+  "yu": {
+    "sutra_key": "yu",
+    "headline": "Referral network activation window",
+    "context_note": "Yu day: 'favorable for making friends, greatly auspicious'",
+    "detail": "The current engagement might not have the best margins, but the people you meet will bring the next one. Industry events, tech communities, client referrals — opportunities emerge from your network. Building relationships matters more than grinding for billable hours right now.",
+    "do": ["Attend industry events and tech communities to increase visibility", "Ask existing clients for referrals; establish referral fee arrangements", "Build cooperative rather than competitive relationships with peers; refer work you can't handle to each other"],
+    "avoid": ["Focusing only on winning projects while neglecting relationship building", "Accepting every referral without evaluation"]
+  },
+  "sui": {
+    "sutra_key": "sui",
+    "headline": "Internal operations refinement period",
+    "context_note": "Sui day: 'suitable only for resolving difficulties and healing'",
+    "detail": "Not the right time to chase new contracts, but perfect for auditing internal processes. Does the contract template need updating? Does the pricing model need adjustment? Do internal tools need upgrading? Use this period to get the back office in order.",
+    "do": ["Audit existing contracts for margin performance; cut loss-making engagements", "Update contract templates, pricing models, and service descriptions", "Automate internal tools and workflows", "Invest in team skill training and knowledge management"],
+    "avoid": ["Rushing to acquire new clients", "External quoting and contract negotiations", "Accepting client scope additions without additional charges"]
+  },
+  "an": {
+    "sutra_key": "an",
+    "headline": "Service infrastructure building period",
+    "context_note": "An day: 'favorable for relocation, constructing gardens and residences'",
+    "detail": "The right time to establish standardized service processes. SOPs, delivery templates, quality checklists — this infrastructure makes subsequent project execution more efficient. Also suitable for expanding subcontractor teams or partner networks.",
+    "do": ["Build standardized delivery processes and quality assurance mechanisms", "Expand subcontractor teams and partner networks", "Create knowledge bases and FAQ collections", "Target clients who are rapidly scaling and need extensive outsourcing"],
+    "avoid": ["Expanding quickly without quality controls in place", "Skipping process development and jumping straight into large projects"]
+  },
+  "kai": {
+    "sutra_key": "kai",
+    "headline": "Firefighting-type engagements",
+    "context_note": "Kai day: 'favorable for suppression and defeating adversaries; all else is unfavorable'",
+    "detail": "The client has a critical problem and needs external help putting out the fire. This is your home turf. System failures, botched projects, previous vendor abandonment — these are the engagements you're most likely to win, and premium pricing is justified.",
+    "do": ["Target clients with urgent problems that need solving", "Price to reflect the value of firefighting. Don't be shy", "Delivery speed matters more than delivery perfection", "After the fire is out, push for an ongoing maintenance contract"],
+    "avoid": ["Taking on routine long-term operational engagements", "Underbidding on standard projects", "Expecting the engagement to go smoothly"]
+  },
+  "ki": {
+    "sutra_key": "ki",
+    "headline": "Existing client relationship maintenance period",
+    "context_note": "Ki day: 'favorable for socializing and gatherings' + 'unfavorable for long-distance travel and trade'",
+    "detail": "Focus on nurturing relationships with existing clients. Take them to lunch, attend their events, show genuine interest in their business. Large new contracts should wait, but renewals and service add-ons will go smoothly.",
+    "do": ["Strengthen relationships with key decision-makers at existing clients", "Proactively learn about clients' recent business challenges", "Negotiate renewals and small-scale service additions"],
+    "avoid": ["Large-scale new client development", "Signing major contracts or long-term commitments", "Taking on remote cross-regional engagements"]
+  },
+  "sei": {
+    "sutra_key": "sei",
+    "headline": "Peak delivery quality period",
+    "context_note": "Sei day: 'favorable for studying the Way and all accomplishment practices'",
+    "detail": "Delivery quality is your biggest weapon right now. Work produced during this period becomes the benchmark case study for future proposals. Push the current project to exceed client expectations, and acceptance scores will be outstanding.",
+    "do": ["Elevate current project delivery quality to the highest level", "After delivery, compile the work into a case study", "Obtain written testimonials or permission to use success stories from the client", "Conduct internal tech sharing and knowledge transfer within the team"],
+    "avoid": ["Doing just enough to pass acceptance", "Neglecting to document outcomes after delivery"]
+  },
+  "mei": {
+    "sutra_key": "mei",
+    "headline": "Differentiation positioning period",
+    "context_note": "Mei day: 'unfavorable for taking any action'",
+    "detail": "Not the time to compete for projects. Audit where your services differ from other vendors in the market and find your niche. Areas that overlap with the client's internal team capabilities aren't worth pursuing; find the gaps they can't or won't fill.",
+    "do": ["Analyze competitor and client internal team capability maps", "Identify your differentiation positioning and niche market", "Upgrade team technical capabilities to widen the gap from competitors"],
+    "avoid": ["Engaging in price wars with commoditized competitors", "Aggressively pursuing deals or major expansion"]
+  },
+  "gyo": {
+    "sutra_key": "gyo",
+    "headline": "Long-term groundwork period",
+    "context_note": "Gyo day: 'actions both good and bad fail to materialize, very unfavorable'",
+    "detail": "Short-term sprints won't produce results, but long-term groundwork is exactly what this period is for. Research new technologies, develop new service offerings, build partnership frameworks — these investments won't show returns immediately, but six months from now you'll be glad you prepared.",
+    "do": ["Research new technologies and service models", "Build prospect lists and outreach channels", "Discuss collaboration frameworks with complementary vendors"],
+    "avoid": ["Demanding immediate revenue returns", "Measuring this period's investment by short-term performance", "Aggressive bidding or price-cutting"]
+  },
+  "tai": {
+    "sutra_key": "tai",
+    "headline": "Leverage-through-others period",
+    "context_note": "Tai day: 'unfavorable for taking any action'",
+    "detail": "Pushing solo is less effective than leveraging others. Join enterprise partner programs, co-bid with system integrators, register as a platform vendor — finding your position within an existing ecosystem is more efficient than developing clients from scratch.",
+    "do": ["Join enterprise partner certification or vendor registration programs", "Build subcontracting relationships with SIs and consulting firms", "Accumulate reputation and case studies within existing ecosystems"],
+    "avoid": ["Going solo into uncharted markets", "Building brand awareness from zero", "Rushing to leave the partner framework and go independent"]
+  }
+}

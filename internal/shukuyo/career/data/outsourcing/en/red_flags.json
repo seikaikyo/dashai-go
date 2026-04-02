@@ -1,0 +1,30 @@
+{
+  "ankai": [
+    "In Ankai relationships, one side gets continuously drained. Payment delays and scope explosions are the norm",
+    "Kai side 'finds everything beyond intolerable' — halfway through the project you're in the red but can't walk away",
+    "A bad year coinciding with Ankai means high risk of contract disputes or financial crisis",
+    "Vague contract terms are the biggest trap. Without quantified acceptance criteria, revisions become infinite"
+  ],
+  "yusui": [
+    "The Yu-side company unconsciously over-delivers, and margins get continuously squeezed",
+    "The Sui-side client treats your extra effort as standard service and won't voluntarily pay more",
+    "In a bad year, the Yu side's delivery capacity drops, previously free services become unsustainable, and client dissatisfaction spikes",
+    "Team burnout is the biggest risk. Key personnel may resign due to sustained overwork"
+  ],
+  "kisei": [
+    "Initial alignment costs are high and may consume all profit from the first project",
+    "Different terminology and work styles on both sides push communication costs to 2-3x expectations",
+    "The Ki side has a pressure tolerance ceiling. If alignment drags on too long, the team loses patience"
+  ],
+  "mei": [
+    "Commoditized collaboration lacks differentiation value. The client can switch vendors at any time",
+    "Weak contract renewal motivation. Once the client's internal team fills its capacity gap, you're surplus",
+    "Price competition becomes the only lever, and margins get crushed to the floor"
+  ],
+  "gyotai": [
+    "Great rapport leads to neglecting written documentation. No evidence trail when disputes arise later",
+    "The Gyo-side company gets absorbed in client needs and forgets its own team's rest and growth",
+    "Not recording verbal confirmations is the most common pitfall. Change management becomes a formality"
+  ],
+  "eishin": []
+}

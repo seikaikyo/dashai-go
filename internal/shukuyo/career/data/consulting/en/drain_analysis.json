@@ -1,0 +1,178 @@
+{
+  "mei": {
+    "relationship": "Same mansion, same body. The site thinks like you do. Zero communication cost.",
+    "daily_feel": "Operational from day one, no cultural adjustment needed. But no surprises either.",
+    "energy_flow_desc": "Balanced both ways. Neither side drains the other.",
+    "long_term_risk": "Client starts questioning why they are paying for an external consultant who thinks the same way their internal team does.",
+    "growth": "Low. The site's challenges are familiar territory; nothing new to learn.",
+    "stability": "High. Stable during the contract, but perceived value declines over time.",
+    "bad_year_impact": "Bad year does not add extra drain from the site. Impact is contained.",
+    "fit_for": "Short-term advisory where rapid industry understanding is needed. Not suited for long-term residency.",
+    "hr": {
+      "relationship": "Consultant and site are on the same wavelength. Zero communication friction but lacking external perspective.",
+      "daily_feel": "Consultant blends in instantly, but the client may question the need for external resources.",
+      "bad_year_impact": "Bad year impact is minimal, but consultant's added value is also at its lowest.",
+      "fit_for": "Short-term capacity augmentation works. Not recommended as a long-term consulting arrangement."
+    }
+  },
+  "gyo": {
+    "relationship": "Karmic pull from past lives. You feel an inexplicable sense of mission toward the site.",
+    "daily_feel": "You unconsciously invest effort beyond the contract scope.",
+    "energy_flow_desc": "Low-level output from you, cushioned by karmic momentum so it does not feel like waste.",
+    "long_term_risk": "Gyo side treats the site's problems as their own, blurring the consultant boundary.",
+    "growth": "Medium. Experience accumulates through fulfilling the site's mission.",
+    "stability": "Medium-high. Mission-driven stability, but boundary blur is a risk with over-investment.",
+    "bad_year_impact": "Bad year intensifies the mission drive. You may accept renewals you should not.",
+    "fit_for": "Senior consultants with strong boundary awareness. Not suited for consultants early in their independent career.",
+    "hr": {
+      "relationship": "Consultant is mission-driven, investing beyond contract scope.",
+      "daily_feel": "Consultant is highly self-motivated. The site barely needs to manage them.",
+      "bad_year_impact": "Bad year may cause consultant burnout from over-investment.",
+      "fit_for": "Projects requiring high self-motivation. Boundary management is critical."
+    }
+  },
+  "tai": {
+    "relationship": "The site naturally accepts you. Onboarding takes almost no time.",
+    "daily_feel": "Guided by the site, you reach operational speed quickly.",
+    "energy_flow_desc": "The site outputs a small amount of support. You are the receiver.",
+    "long_term_risk": "Over-reliance on the site's support system means you cannot take the methodology with you when you leave.",
+    "growth": "Medium. Passive growth following the site's pace; transferability to the next engagement is uncertain.",
+    "stability": "Medium-high. The site's support keeps you stable, but that stability is not yours to keep.",
+    "bad_year_impact": "Bad year is buffered by the site. Less impact than working independently.",
+    "fit_for": "Junior consultants pairing with seniors. Not suited for sites where you need to lead independently.",
+    "hr": {
+      "relationship": "Site naturally provides support to the consultant. Fast ramp-up.",
+      "daily_feel": "Consultant's adjustment period is short, but self-sufficiency may be lacking.",
+      "bad_year_impact": "Bad year is buffered by the site. Low risk.",
+      "fit_for": "Quick capacity augmentation. Do not expect independent perspective from this consultant."
+    }
+  },
+  "ei": {
+    "relationship": "Your expertise improves the site, and the site's results build your track record.",
+    "daily_feel": "A positive feedback loop. Every delivery brings a sense of achievement.",
+    "energy_flow_desc": "You invest proactively. The site's positive feedback prevents you from feeling drained.",
+    "long_term_risk": "The loop feels too good to leave. You become a de facto employee without employee protections.",
+    "growth": "High. Mutual uplift. Site experience directly becomes a selling point for your next engagement.",
+    "stability": "Medium-high. Stable as long as the loop continues, but check contract protections.",
+    "bad_year_impact": "Bad year weakens the loop but does not reverse it into drain.",
+    "fit_for": "Medium to long-term resident consulting. Periodic contract review is essential.",
+    "hr": {
+      "relationship": "Consultant and site mutually invest, forming a positive feedback loop.",
+      "daily_feel": "Both sides gain. Collaboration quality continuously improves.",
+      "bad_year_impact": "Bad year weakens but does not reverse the loop. Manageable risk.",
+      "fit_for": "Medium to long-term projects needing stable output. High renewal value."
+    }
+  },
+  "shin": {
+    "relationship": "The site proactively gives you resources and a stage. You are the beneficiary.",
+    "daily_feel": "The site manager trusts you, gives you latitude and support.",
+    "energy_flow_desc": "The site invests proactively. You are the receiver.",
+    "long_term_risk": "Over-dependence on a single site's support may weaken your ability to win engagements elsewhere.",
+    "growth": "High. The stage the site provides lets you build track record fast.",
+    "stability": "High. Shin is the most stable beneficiary position.",
+    "bad_year_impact": "Bad year may reduce site support, but it will not reverse into drain.",
+    "fit_for": "Consultants who need to build track record. Maintain other pipeline channels in parallel.",
+    "hr": {
+      "relationship": "Site invests resources in the consultant. Consultant is the beneficiary.",
+      "daily_feel": "Consultant thrives at the site. Client satisfaction is high.",
+      "bad_year_impact": "Bad year reduces support effectiveness but does not reverse it.",
+      "fit_for": "Sites willing to invest in the consulting relationship. High return on investment."
+    }
+  },
+  "yu": {
+    "relationship": "You are the giver. The site draws energy and methodology from you.",
+    "daily_feel": "You actively output. The site receives but gives limited feedback.",
+    "energy_flow_desc": "You output continuously. The site absorbs. Your fatigue goes unnoticed.",
+    "long_term_risk": "Past six months, your tank runs dry. Reassess before any renewal.",
+    "growth": "Medium. Consulting methodology grows, but the drained portion needs off-site recharging.",
+    "stability": "Medium. First three months are stable. Fatigue builds after that.",
+    "bad_year_impact": "Bad year reduces your output capacity. Delivery quality may suffer.",
+    "fit_for": "3-6 month short-term projects. Not suited for annual contracts.",
+    "hr": {
+      "relationship": "Consultant is the giver. Site gains energy but feedback is limited.",
+      "daily_feel": "High early productivity, but consultant fatigue is hard to detect.",
+      "bad_year_impact": "Bad year reduces consultant output. Delivery quality risk increases.",
+      "fit_for": "Short-term high-intensity engagement. Contract should not exceed six months."
+    }
+  },
+  "sui": {
+    "relationship": "The site gives you resources, but you are on the Sui side: drain accumulates.",
+    "daily_feel": "The site is supportive, yet you feel increasingly exhausted.",
+    "energy_flow_desc": "Site invests heavily. Your ability to reciprocate diminishes over time. First month is the best; it declines from there.",
+    "long_term_risk": "By the time you want to exit, you are too drained to do a proper handoff.",
+    "growth": "High but passive. The site pushes you forward, but you do not choose the direction.",
+    "stability": "Medium-low. Comfort declines over time. Fatigue accumulates.",
+    "bad_year_impact": "Bad year plus Sui position equals double drain. Delivery quality may drop sharply during this period.",
+    "fit_for": "Short-term residency with a clear exit date. Contract must include a no-renewal option.",
+    "hr": {
+      "relationship": "Site invests resources, but consultant is on the Sui side with increasing drain.",
+      "daily_feel": "Site provides support, but consultant's endurance diminishes and output declines.",
+      "bad_year_impact": "Bad year plus high drain equals risk of early departure or delivery failure.",
+      "fit_for": "Short-term capacity fill works. Past three months, monitor consultant state closely."
+    }
+  },
+  "an": {
+    "relationship": "You drive the site's stability, continuously outputting energy to keep the project running.",
+    "daily_feel": "Like holding an umbrella nonstop. You keep things steady; the site depends on your stability.",
+    "energy_flow_desc": "You continuously output to maintain stability. The site draws security from you.",
+    "long_term_risk": "An side drains without realizing it. The more the site depends on you, the harder it is to leave.",
+    "growth": "Medium. Project management skills grow, but you get locked into the stabilizer role.",
+    "stability": "Appears high, actually draining. Stable while you are there; falls apart when you leave.",
+    "bad_year_impact": "Bad year doubles the stabilization load. You may be depleted by the time the contract ends.",
+    "fit_for": "Senior consultants who set firm boundaries. Service scope must be explicitly defined in the contract.",
+    "hr": {
+      "relationship": "Consultant drives stability but continuously outputs, draining without awareness.",
+      "daily_feel": "Consultant stabilizes the site, but long-term umbrella-holding carries depletion risk.",
+      "bad_year_impact": "Bad year doubles stabilization pressure. Consultant departure risk rises.",
+      "fit_for": "Sites needing a stabilizing force. Contract scope must be explicit to prevent unbounded expansion."
+    }
+  },
+  "kai": {
+    "relationship": "The site continuously extracts energy from you. 'All else is unbearable.'",
+    "daily_feel": "First month feels energized. By month three, nothing you do feels enough.",
+    "energy_flow_desc": "The site absorbs your stability. Your energy flows out in one direction.",
+    "long_term_risk": "The consultant's advantage is being able to exit at contract end. But if you are already depleted, you cannot even manage a proper handoff.",
+    "growth": "Low. Energy is being extracted. No reserves left for growth.",
+    "stability": "Low. Kai is the most unstable position.",
+    "bad_year_impact": "Bad year plus Kai position may make this contract period the lowest point in your career.",
+    "fit_for": "Only if the contract is under two months and the rate is high enough. Otherwise, decline.",
+    "hr": {
+      "relationship": "Site continuously extracts energy from the consultant.",
+      "daily_feel": "Consultant's productivity visibly declines after month three.",
+      "bad_year_impact": "Bad year plus Kai position equals very high risk of early departure and delivery failure.",
+      "fit_for": "Extreme short-term sprint tasks only. Do not extend past two months."
+    }
+  },
+  "ki": {
+    "relationship": "The site puts pressure on you that drives growth. A pressure-based dynamic.",
+    "daily_feel": "The site's challenges keep you on edge. Stimulating in the short term.",
+    "energy_flow_desc": "Site applies pressure. You absorb it. Drain is not trivial, but growth is the return.",
+    "long_term_risk": "Ki side has a pressure ceiling. Exceed it and growth turns into damage. Contract expiration is the natural safety valve.",
+    "growth": "High but at a cost. Pressure-driven growth. Schedule recovery time between engagements.",
+    "stability": "Medium. When pressure is calibrated, it is good stimulation. When it spirals, things break.",
+    "bad_year_impact": "Bad year may turn pressure from a driving force into a crushing one. Watch your health.",
+    "fit_for": "Stress-tolerant senior consultants. Schedule rest periods between engagements.",
+    "hr": {
+      "relationship": "Site applies pressure to drive consultant growth. Pressure-based interaction.",
+      "daily_feel": "Consultant has short-term drive, but excessive pressure impacts delivery.",
+      "bad_year_impact": "Bad year may crush the consultant rather than drive them. Backup plan needed.",
+      "fit_for": "Projects that need high-pressure results. Must be paired with appropriate rest mechanisms."
+    }
+  },
+  "sei": {
+    "relationship": "You grow from the site's challenges. After adjustment, things keep getting better.",
+    "daily_feel": "Uncomfortable at first. Two weeks in, you realize your methodology got stronger.",
+    "energy_flow_desc": "The site's characteristics polish you. You grow passively. Drain is low.",
+    "long_term_risk": "Sei side has the lowest risk. The only issue is that initial adjustment may make the client doubt your competence.",
+    "growth": "High. Post-adjustment growth is solid and transferable to the next engagement.",
+    "stability": "High. Sei is one of the most stable positions after adjustment.",
+    "bad_year_impact": "Bad year makes the adjustment feel heavier, but no collapse.",
+    "fit_for": "Consultants who can tolerate initial discomfort. Post-adjustment output will exceed expectations.",
+    "hr": {
+      "relationship": "Consultant grows from the site's challenges. Performance steadily improves after adjustment.",
+      "daily_feel": "Consultant needs initial adjustment, but post-adjustment results exceed expectations.",
+      "bad_year_impact": "Bad year increases adjustment discomfort but does not cause collapse. Low risk.",
+      "fit_for": "Sites that can accept initial consultant adjustment. Highest long-term return."
+    }
+  }
+}

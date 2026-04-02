@@ -1,0 +1,56 @@
+{
+  "eishin": {
+    "description": "High close-rate match. Candidate and company elevate each other, and both sides feel positive chemistry from the first interview. For headhunters, this is the easiest placement with the highest retention rate.",
+    "detailed": "Eishin is the most ideal relationship in Sukuyodo. Both parties naturally improve each other's state. Interviews go well, salary negotiations proceed smoothly, and the onboarding friction is minimal. Headhunters can recommend with confidence.",
+    "advice": "This match barely needs packaging — presenting both sides' actual conditions is enough to close. The only risk is neglecting follow-up because everything seems too smooth. Schedule regular check-ins to confirm mutual satisfaction.",
+    "tips": ["Pitch to company: candidate's growth potential and mutual value", "Pitch to candidate: company's development resources and growth runway", "Arrange deep-conversation interviews — chemistry will emerge naturally", "Maintain periodic follow-ups post-placement for long-term relationship"],
+    "avoid": ["Skipping due diligence because the match looks perfect", "Over-promising expectations to either side", "Assuming the deal is done and neglecting post-placement tracking"],
+    "good_for": ["Mid-to-senior executive search", "Core team critical positions", "Priority recommendations for long-term clients"],
+    "description_classic": "Eishin: the supreme auspicious pairing. Headhunters can recommend this match with full confidence."
+  },
+  "gyotai": {
+    "description": "Intuitive match. Candidate and company share natural rapport — both sides feel 'this is the one' during interviews. High culture fit, low onboarding friction.",
+    "detailed": "Gyotai represents past-life karmic connections. Both parties understand each other's operating style with minimal explanation. Interview pass rates are high, but watch for candidates who may neglect their own interests due to a strong sense of mission.",
+    "advice": "Leverage the natural rapport to accelerate the process, but the headhunter must play the rational role — ensure salary terms and career plans are explicitly discussed. Don't let 'it feels right' override substantive negotiations.",
+    "tips": ["Pitch to company: strong culture fit and low onboarding cost", "Pitch to candidate: company's mission and long-term vision", "Arrange casual meetings to let natural chemistry show", "Ensure both sides discuss terms explicitly"],
+    "avoid": ["Letting both sides decide on feeling alone, skipping negotiations", "Candidate accepting below-market salary due to mission drive", "Overlooking candidate's personal development needs"],
+    "good_for": ["Critical positions needing quick placement", "Teams with high culture-fit requirements", "Right-hand roles for founders or executives"],
+    "description_classic": "Gyotai: karmic bonds from past lives. Headhunters should aim for swift closure with this match."
+  },
+  "mei": {
+    "description": "Mirror match. Candidate and company are nearly identical in style — zero communication barriers but low complementarity. Headhunters must transparently disclose this characteristic.",
+    "detailed": "Mei means same mansion, same essence. The candidate and company think alike. Interviews feel highly compatible, but post-placement, neither side may bring the expected fresh perspective. The headhunter's role is to set correct expectations.",
+    "advice": "Position the recommendation clearly: this is a 'seamless integration' hire, not a 'transformation agent.' Tell the company the candidate will blend in fast but won't challenge the status quo. Tell the candidate the job is stable but growth must be self-driven.",
+    "tips": ["Pitch to company: candidate's immediate readiness and near-zero adaptation cost", "Pitch to candidate: comfortable environment and stability", "Transparently disclose the low complementarity and let both sides evaluate", "Suggest the company pair with complementary hires for team balance"],
+    "avoid": ["Packaging 'zero friction' as 'bringing innovation'", "Hiding the homogeneity risk", "Recommending mei-position candidates for roles that need change agents"],
+    "good_for": ["Standardized positions needing quick integration", "Teams where culture uniformity is critical", "Steady-state operational roles"],
+    "description_classic": "Mei: like a mirror reflection. Headhunters should present facts honestly without embellishment."
+  },
+  "yusui": {
+    "description": "Candidate will over-deliver initially — high drive, strong proactiveness. But headhunters must disclose: this energy output may not be sustainable. Long-term retention requires active reciprocation from the company.",
+    "detailed": "In yusui, the yu party (candidate) proactively invests heavy social and work energy, making the company very satisfied. But if the sui party (company) doesn't actively reciprocate, the candidate's energy will gradually deplete.",
+    "advice": "Pitch the candidate's high initial impact to the company while suggesting they build a feedback mechanism. Tell the candidate the first six months will go great but they need to learn boundary-setting. Track candidate status closely during the guarantee period.",
+    "tips": ["Pitch to company: high initial impact, strong proactiveness", "Pitch to candidate: company provides resources and a platform", "Suggest a deep feedback session at end of probation", "Monthly satisfaction check-ins during guarantee period"],
+    "avoid": ["Selling only short-term explosive performance without mentioning sustainability", "Letting candidate accept below-market terms (yu types tend to sacrifice themselves)", "Neglecting tracking during the guarantee period"],
+    "good_for": ["New departments needing quick output", "Project-based positions with clear milestones", "Positions where the company is willing to invest in reciprocation"],
+    "description_classic": "Yusui: yu side auspicious for socializing. Headhunters must disclose sustainability risk."
+  },
+  "kisei": {
+    "description": "Complementary match. The candidate's skills fill the company's gap, but both sides need an adjustment period. Headhunters must set the expectation that 'the first three months will be uncomfortable' — survive it and you get long-term stable collaboration.",
+    "detailed": "Kisei is complementary but comes with friction. The candidate brings skills or perspectives the company lacks. Initially, both sides will find each other's approach unfamiliar. The headhunter needs to serve as a bridge during this adjustment phase.",
+    "advice": "The core pitch is 'fills the gap,' not 'seamless fit.' Tell the company the adjustment period is normal. Tell the candidate initial discomfort doesn't mean incompatibility. Set up 30/60/90-day post-placement check-ins.",
+    "tips": ["Pitch to company: candidate brings what you're missing", "Pitch to candidate: you can deliver unique value here", "Proactively set adjustment-period expectations to prevent first-month abandonment", "Schedule 30/60/90-day follow-up meetings"],
+    "avoid": ["Packaging complementarity as 'perfect fit' — both sides will feel deceived during adjustment", "Abandoning the bridge role during the adjustment period", "Recommending to urgent-hire companies without mentioning the adjustment period"],
+    "good_for": ["Positions where the company knows exactly what they're missing", "Teams with patience for long-term investment", "Technical complementary specialist roles"],
+    "description_classic": "Kisei: complementary pairing. Headhunters should pre-set adjustment period expectations."
+  },
+  "ankai": {
+    "description": "High-chemistry but high-risk match. Both sides are drawn to each other's intense qualities during interviews, but long-term retention is low. Headhunters must disclose the retention risk and consider project-based or time-limited placements.",
+    "detailed": "Ankai is the highest-tension combination. There's strong mutual attraction and interviews usually impress. But post-placement, the an party gets continuously drained while the kai party keeps challenging the existing order. One-year retention is significantly lower than other pairings.",
+    "advice": "Professional ethics require headhunters to disclose this risk. Recommend project-based, consultant, or fixed-term contract placements. If both sides insist on permanent employment, build phase-review mechanisms into the contract.",
+    "tips": ["Be honest with company: candidate has strong impact but retention risk is above average", "Be honest with candidate: this role is stimulating but draining, prepare accordingly", "Suggest project-based or consultant engagement to reduce risk", "For permanent hires, propose quarterly mutual-satisfaction reviews"],
+    "avoid": ["Hiding retention risk to close the deal", "Recommending ankai matches during guarantee periods (high departure compensation risk)", "Letting an-party candidates accept high-pressure environments without disclosing drain risk"],
+    "good_for": ["Short-term projects or consultant positions", "Transformation missions that need to break through stagnation", "Time-limited collaborations where both sides are mentally prepared"],
+    "description_classic": "Ankai: the kai side 'nothing else is bearable.' Headhunters must disclose retention risk without exception."
+  }
+}

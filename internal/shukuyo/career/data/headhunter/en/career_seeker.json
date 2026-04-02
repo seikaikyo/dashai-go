@@ -1,0 +1,90 @@
+{
+  "ei": {
+    "sutra_key": "ei",
+    "headline": "Golden Recommendation Window",
+    "context_note": "Ei day: auspicious for career advancement",
+    "detail": "Candidate is in an upward phase — interview performance and negotiation power are at peak. Headhunters should reserve their best opportunities for this timing.",
+    "do": ["Arrange interviews with priority clients", "Encourage candidate to negotiate boldly", "Emphasize leadership and track record", "Present multiple opportunities for candidate to choose from"],
+    "avoid": ["Wasting this window on mediocre positions", "Letting candidate undervalue their market worth"]
+  },
+  "shin": {
+    "sutra_key": "shin",
+    "headline": "Nurturing Recommendation",
+    "context_note": "Shin day: auspicious for forming bonds",
+    "detail": "Candidate radiates approachability — companies easily form positive impressions. Best suited for companies that invest in talent development. Long-term trust builds naturally.",
+    "do": ["Recommend to companies with strong training programs", "Emphasize candidate's stability and loyalty", "Arrange casual meet-and-greets to build rapport"],
+    "avoid": ["Recommending to high-pressure short-term-oriented companies", "Focusing only on technical skills, ignoring personality fit"]
+  },
+  "yu": {
+    "sutra_key": "yu",
+    "headline": "Network-Driven Recommendation",
+    "context_note": "Yu day: auspicious for socializing",
+    "detail": "Candidate's social energy is high — team influence is the primary selling point. Best suited for positions requiring cross-functional collaboration and team atmosphere.",
+    "do": ["Emphasize team energizing ability and collaboration skills", "Recommend positions requiring cross-department communication", "Arrange team interviews to showcase social strengths"],
+    "avoid": ["Recommending solo-work positions", "Letting candidate over-commit on social responsibilities beyond capacity"]
+  },
+  "sui": {
+    "sutra_key": "sui",
+    "headline": "Deep Focus — Hold Pattern",
+    "context_note": "Sui day: suitable for recovery only",
+    "detail": "Candidate is not in peak strike condition. Headhunters should pause recommendations and guide the candidate to invest in self-improvement, waiting for a better window.",
+    "do": ["Suggest certifications or further education", "Maintain contact without rushing", "Help organize resume and portfolio"],
+    "avoid": ["Pushing candidate into interviews", "Letting candidate settle for below-expectation positions"]
+  },
+  "an": {
+    "sutra_key": "an",
+    "headline": "Foundation-Building Recommendation",
+    "context_note": "An day: auspicious for relocation and establishment",
+    "detail": "Candidate fits companies building new teams or expanding into new markets. Stability and construction capability are the key selling points.",
+    "do": ["Recommend to expanding companies", "Emphasize process-building and team-building experience", "Target positions that need someone to 'lay the foundation'"],
+    "avoid": ["Recommending to already mature and stable environments", "Overlooking candidate's potential drain risk"]
+  },
+  "kai": {
+    "sutra_key": "kai",
+    "headline": "Problem-Solver Recommendation",
+    "context_note": "Kai day: only for overcoming obstacles",
+    "detail": "Candidate's disruption power and problem-solving ability are the primary selling points. Recommend to companies with tough problems, but set clear scope and timeline.",
+    "do": ["Recommend to positions with clear problems to solve", "Emphasize adversity response capability", "Suggest project-based or consultant engagement"],
+    "avoid": ["Recommending for day-to-day operational roles", "Open-ended long-term positions without defined scope"]
+  },
+  "ki": {
+    "sutra_key": "ki",
+    "headline": "Internal Operations Recommendation",
+    "context_note": "Ki day: auspicious for gatherings, not for external deals",
+    "detail": "Candidate's social energy is best directed inward. Recommend to positions emphasizing team culture and internal communication. Avoid roles requiring heavy external negotiations.",
+    "do": ["Recommend team-culture-focused companies", "Emphasize internal communication and team management skills", "Arrange team-experience-style interviews"],
+    "avoid": ["Positions requiring frequent travel or external negotiations", "Positioning candidate as a business development role"]
+  },
+  "sei": {
+    "sutra_key": "sei",
+    "headline": "Learning-Achievement Recommendation",
+    "context_note": "Sei day: auspicious for study and accomplishment",
+    "detail": "Candidate's learning ability and delivery power are both peaking. Recommend to companies with strong training systems that value measurable outcomes.",
+    "do": ["Emphasize learning speed and project completion rate", "Recommend companies with training programs", "Use concrete data to demonstrate learning curve"],
+    "avoid": ["Recommending to companies indifferent to employee development", "Talking only about learning ability without delivery results"]
+  },
+  "mei": {
+    "sutra_key": "mei",
+    "headline": "Reserve Pool Recommendation",
+    "context_note": "Mei day: not suitable for major actions",
+    "detail": "Candidate is not in optimal strike condition, but this is prime time for building ammunition. Headhunters should help with career assessment and wait for a better recommendation window.",
+    "do": ["Help candidate do a career direction assessment", "Suggest key certifications or portfolio organization", "Tag in talent pool as 'awaiting optimal timing'"],
+    "avoid": ["Pressuring candidate to accept non-ideal positions", "Recommending major opportunities at this timing"]
+  },
+  "gyo": {
+    "sutra_key": "gyo",
+    "headline": "Accumulation — Watch and Wait",
+    "context_note": "Gyo day: actions don't bear fruit",
+    "detail": "Candidate is in an energy accumulation phase — ROI on actions is low. Headhunters should maintain contact without pressure, letting the candidate focus on learning and recharging.",
+    "do": ["Maintain regular contact for long-term relationship", "Share industry intel to support candidate's research", "Guide candidate to use this period for competitiveness improvement"],
+    "avoid": ["Pressuring decisions during this phase", "Recommending performance-driven short-term positions"]
+  },
+  "tai": {
+    "sutra_key": "tai",
+    "headline": "Potential Talent Recommendation",
+    "context_note": "Tai day: not suitable for major actions",
+    "detail": "Candidate is a potential-type talent, best suited for environments with mature systems to inherit and learn from. Not suitable for greenfield startup positions.",
+    "do": ["Recommend to companies with established systems and mentorship", "Emphasize candidate's potential and adaptability", "Target positions with existing foundations to take over"],
+    "avoid": ["Recommending for roles requiring independent trailblazing", "Pushing candidate to act before they're ready"]
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "mei": {
+    "relationship": "Same mansion, same segment — both companies are energy-equal but non-complementary",
+    "daily_feel": "Zero communication barriers, but the partnership adds no clear value",
+    "energy_flow_desc": "Bidirectional and equal — no drain, but no elevation either",
+    "long_term_risk": "High risk of commoditized competition; information leakage damage exceeds partnership benefits",
+    "growth": "Low. Both companies are too similar to learn from each other",
+    "stability": "Medium. Stable but no growth driver; both take the hit simultaneously when markets shift",
+    "bad_year_impact": "In a bad year with shrinking markets, both fight over the same pie — partnership can instantly become rivalry",
+    "fit_for": "Partnerships with strict geographic market division or industry standard co-development",
+    "hr": {
+      "relationship": "Same mansion, same frequency — the partnership generates no additional value",
+      "daily_feel": "You understand their business, but they understand yours too — no information asymmetry advantage",
+      "bad_year_impact": "In a bad year both companies take simultaneous hits; the partnership may become a liability",
+      "fit_for": "Only suitable for partnerships with strict geographic or product line division"
+    }
+  },
+  "gyo": {
+    "relationship": "Karmic drive — your company naturally pushes the other's development agenda",
+    "daily_feel": "An industry mission-like sense of purpose; willingness to invest resources comes naturally",
+    "energy_flow_desc": "Slight output from your side, but karmic alignment provides long-term returns",
+    "long_term_risk": "The gyo-party company tends to over-invest in this partnership at the expense of other opportunities",
+    "growth": "Medium. Industry influence accumulates through driving the other's development",
+    "stability": "Medium-high. Karmic foundation provides baseline stability, but the gyo party needs spending discipline",
+    "bad_year_impact": "In a bad year the sense of mission intensifies — more resources in, fewer visible returns",
+    "fit_for": "Companies with a long-term industry positioning mindset",
+    "hr": {
+      "relationship": "The other company depends on your push in the value chain — a natural upstream-downstream dynamic",
+      "daily_feel": "The other company naturally follows your industry rhythm; partnership friction is low",
+      "bad_year_impact": "In a bad year the other faces greater pressure; your investment returns are delayed",
+      "fit_for": "Suitable for partner companies with patience for long-term industry positioning"
+    }
+  },
+  "tai": {
+    "relationship": "Karmic receiver — the other company naturally provides resources and market support",
+    "daily_feel": "Feeling supported by an industry elder; market entry costs decrease",
+    "energy_flow_desc": "The other company provides slight output; your company is the beneficiary",
+    "long_term_risk": "Over-reliance on the other's market resources degrades your independent capability",
+    "growth": "Medium. Passive growth following the other's market rhythm",
+    "stability": "Medium-high. Karmic support provides a buffer, but it can't last forever",
+    "bad_year_impact": "In a bad year the other's buffer reduces impact, less than going alone",
+    "fit_for": "Companies in growth phase that need market resources",
+    "hr": {
+      "relationship": "Your company plays the supported role in the other's industry ecosystem",
+      "daily_feel": "The other company is willing to share resources; partnership ramps up quickly",
+      "bad_year_impact": "In a bad year the buffer helps, but if the other is also hit, the buffer vanishes",
+      "fit_for": "Suitable for expanding companies that need industry resource support"
+    }
+  },
+  "ei": {
+    "relationship": "Mutual resource investment with synchronized market position elevation",
+    "daily_feel": "Clear bidirectional returns from the partnership; investment visibly pays off",
+    "energy_flow_desc": "You actively invest market resources; the other's reciprocation prevents loss feelings",
+    "long_term_risk": "The ei party invests more; if reciprocation stops, a sudden partnership value gap appears",
+    "growth": "High. Bidirectional elevation — both market coverage and brand value grow",
+    "stability": "Medium-high. Stable while the positive cycle continues; quick imbalance if reciprocation breaks",
+    "bad_year_impact": "In a bad year the positive cycle may weaken but won't reverse into hostile competition",
+    "fit_for": "Companies willing to invest first and trust in long-term mutual benefit",
+    "hr": {
+      "relationship": "Positive cycle with the other company; both parties' market positions rise together",
+      "daily_feel": "Partnership results are quantifiable; both sides can see input-output ratios",
+      "bad_year_impact": "In a bad year the positive cycle weakens but doesn't reverse",
+      "fit_for": "Suitable for strategically-minded partner companies willing to invest first"
+    }
+  },
+  "shin": {
+    "relationship": "The other company invests resources to cultivate the partnership; you're the supported party",
+    "daily_feel": "Feeling valued and invested in; the other party proactively provides market resources",
+    "energy_flow_desc": "The other party actively invests; your company benefits",
+    "long_term_risk": "Over-reliance on the other's resource investment; losing market competitiveness after separation",
+    "growth": "High. Passive but effective market growth; the key is internalizing capabilities",
+    "stability": "High. The shin position is a stable beneficiary role",
+    "bad_year_impact": "In a bad year the other's investment may decrease but won't reverse into competition",
+    "fit_for": "Companies that can internalize external resources and build independent capabilities",
+    "hr": {
+      "relationship": "The other company invests in cultivating the partnership; your company is the primary beneficiary",
+      "daily_feel": "The other party proactively provides resources and market support",
+      "bad_year_impact": "In a bad year investment effectiveness weakens but doesn't turn competitive",
+      "fit_for": "Suitable for partners that can internalize experience and gradually build independence"
+    }
+  },
+  "yu": {
+    "relationship": "Your company is the value exporter, continuously providing a comfortable partnership environment",
+    "daily_feel": "You proactively provide resources and support; the other enjoys them but may not notice the effort",
+    "energy_flow_desc": "Continuous output of market resources, technical support, and customer referrals; the other receives",
+    "long_term_risk": "The yu-party company's input-output ratio deteriorates year over year; partnership value is one-sidedly consumed",
+    "growth": "Medium. Market influence grows, but core capability deepening depends on yourself",
+    "stability": "Medium. The yu party's dissatisfaction accumulates; periodic reassessment of terms is needed",
+    "bad_year_impact": "In a bad year your resources tighten; the cost of maintaining the partnership feels heavier",
+    "fit_for": "Companies with sufficient resources for long-term investment and a clear stop-loss threshold",
+    "hr": {
+      "relationship": "Your company is the primary resource provider; the other benefits but reciprocation is limited",
+      "daily_feel": "The other company is accommodating but low-initiative; you're driving the partnership forward",
+      "bad_year_impact": "In a bad year your resource constraints make partnership maintenance pressure heavier",
+      "fit_for": "Suitable for partnerships where the provider has sufficient resources and accepts asymmetric returns"
+    }
+  },
+  "sui": {
+    "relationship": "The other company is the yu party investing heavily; you're the sui party being passively drained",
+    "daily_feel": "Resources and market opportunities come in, but your company's dependency keeps growing",
+    "energy_flow_desc": "The other invests heavily; your independent capability declines year over year",
+    "long_term_risk": "By the time you want to exit, you discover you can't function without the other's resources",
+    "growth": "High but passive. The other drives your market growth, but you don't choose the direction",
+    "stability": "Medium-low. Dependency deepens over time; exit costs keep rising",
+    "bad_year_impact": "In a bad year your independence is already depleted; if the other reduces support, you're in trouble",
+    "fit_for": "Companies with a clear exit timeline that are simultaneously building independent capabilities",
+    "hr": {
+      "relationship": "Your company gradually loses autonomy, becoming dependent on the other's resources and market",
+      "daily_feel": "Resources come in but your company's capacity is limited; long-term dependency risk is high",
+      "bad_year_impact": "Bad year plus high dependency means the other can unilaterally change terms",
+      "fit_for": "Short-term partnerships are fine; long-term requires simultaneous capability building"
+    }
+  },
+  "an": {
+    "relationship": "Your company leads partnership stability, continuously outputting energy to maintain the framework",
+    "daily_feel": "Like constantly maintaining partnership infrastructure; the other depends on your steady investment",
+    "energy_flow_desc": "Continuous resource output to keep the partnership running; the other draws security from it",
+    "long_term_risk": "The an-party company drains without realizing it; by the time resources are exhausted, it's too late",
+    "growth": "Medium. Partnership management skills grow, but you're locked into the stabilizer role",
+    "stability": "Surface-level high, actual drain. Stable when you're there; collapses when you can't sustain it",
+    "bad_year_impact": "In a bad year, stabilization pressure doubles — potentially the straw that breaks your company's back",
+    "fit_for": "Companies with strong partner relationship management that can set resource investment ceilings",
+    "hr": {
+      "relationship": "Your company is the partnership's stability anchor, but maintenance costs are underestimated",
+      "daily_feel": "The other thinks the partnership runs smoothly while your company silently absorbs maintenance costs",
+      "bad_year_impact": "In a bad year stabilization pressure doubles; risk of partnership collapse or your company being drained",
+      "fit_for": "Only suitable for partners with sufficient resources who can set investment limits"
+    }
+  },
+  "kai": {
+    "relationship": "The other company continuously extracts value from yours — 'nothing else is bearable'",
+    "daily_feel": "Subtle at first; after six months you notice partnership terms steadily worsening",
+    "energy_flow_desc": "The other absorbs your technology, customers, and market resources; your competitiveness flows out one-way",
+    "long_term_risk": "After two to three years you discover core competencies have already been transferred to the other party",
+    "growth": "Low. Resources are being extracted; no surplus for self-investment",
+    "stability": "Low. The kai position is the most unstable; the other can walk away with your resources at any time",
+    "bad_year_impact": "Bad year plus kai position means the partnership may rupture outright, and you've already lost core capabilities",
+    "fit_for": "Not recommended unless there are strict IP protections and exit clauses",
+    "hr": {
+      "relationship": "The other company continuously extracts core value; technology transfer is one-directional",
+      "daily_feel": "After six months the other starts demanding more; terms deteriorate steadily",
+      "bad_year_impact": "Bad year plus kai position means extremely high partnership rupture risk with irreversible losses",
+      "fit_for": "Not recommended without strict IP protection mechanisms"
+    }
+  },
+  "ki": {
+    "relationship": "The other company applies competitive pressure that drives innovation — a pressure-type partnership",
+    "daily_feel": "Competitive pressure is stimulating short-term but fatiguing long-term",
+    "energy_flow_desc": "The other applies pressure; your company absorbs it. Drain isn't negligible but has growth returns",
+    "long_term_risk": "The ki-party company's pressure tolerance has limits; exceeded, healthy competition becomes toxic drain",
+    "growth": "High but with costs. Pressure-driven innovation needs resource replenishment",
+    "stability": "Medium. Stable pressure is good stimulation; excessive pressure collapses the partnership",
+    "bad_year_impact": "In a bad year the pressure may crush rather than drive; the partnership becomes a burden",
+    "fit_for": "Companies with enough buffer resources to absorb pressure and innovate through competition",
+    "hr": {
+      "relationship": "The other company provides sustained competitive pressure driving your innovation",
+      "daily_feel": "Short-term innovation stimulus from the other, but watch for long-term fatigue",
+      "bad_year_impact": "In a bad year the pressure may overwhelm the partnership; needs monitoring",
+      "fit_for": "Suitable for partners with sufficient buffer resources that can innovate under pressure"
+    }
+  },
+  "sei": {
+    "relationship": "Your company grows through the other's pressure; partnership efficiency improves after alignment",
+    "daily_feel": "Lots of process conflicts initially; after adaptation, partnership efficiency visibly improves",
+    "energy_flow_desc": "The other's operating methods refine yours; passive strengthening with low drain",
+    "long_term_risk": "The sei party's risk is low, but initial adaptation and process integration costs are needed",
+    "growth": "High. Post-alignment growth is solid capability improvement",
+    "stability": "High. The sei position is one of the most stable partnership positions after alignment",
+    "bad_year_impact": "In a bad year friction intensifies but the partnership won't collapse",
+    "fit_for": "Companies that can tolerate initial process conflicts and value long-term partnership returns",
+    "hr": {
+      "relationship": "Your company grows through partnership friction; efficiency improves steadily after adaptation",
+      "daily_feel": "The other company needs initial adaptation, but post-alignment performance is stable",
+      "bad_year_impact": "In a bad year friction intensifies but won't cause partnership collapse",
+      "fit_for": "Suitable for partners that tolerate initial friction and focus on long-term value"
+    }
+  }
+}

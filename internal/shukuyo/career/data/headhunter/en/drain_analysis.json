@@ -1,0 +1,200 @@
+{
+  "mei": {
+    "relationship": "Same mansion, same frequency — candidate and company are in sync with no extra energy drain",
+    "daily_feel": "Candidate integrates quickly, virtually no adaptation period needed",
+    "energy_flow_desc": "Bidirectional and balanced — neither party drains the other",
+    "long_term_risk": "Too comfortable may lead to stagnation; candidate must self-drive growth",
+    "growth": "Low. The environment won't actively push the candidate to grow",
+    "stability": "High. Retention is stable; bad years don't add extra drain",
+    "bad_year_impact": "Bad years lower personal fortune but the company adds no extra drain — minimal impact",
+    "fit_for": "Self-disciplined candidates who don't need external stimulation to stay driven",
+    "hr": {
+      "relationship": "Candidate and company are in sync — placement friction is extremely low",
+      "daily_feel": "Candidate integrates fast; team acceptance is high",
+      "bad_year_impact": "Retention risk is low; bad years won't trigger departure thoughts",
+      "fit_for": "Suited for steady-state operational roles. Note to company: candidate won't bring disruptive change — this is a feature, not a bug",
+      "placement_risk": "Low. Easy to close and stable retention, but manage expectations about 'bringing fresh perspectives'",
+      "pitch_to_company": "This candidate can integrate seamlessly with near-zero adaptation cost"
+    }
+  },
+  "gyo": {
+    "relationship": "Karmic pull — candidate naturally invests in driving the company's mission",
+    "daily_feel": "Candidate has an inexplicable sense of duty, proactively investing effort beyond job scope",
+    "energy_flow_desc": "Candidate outputs slightly but karmic support prevents excessive fatigue",
+    "long_term_risk": "Candidate may over-invest and lose sight of personal career planning",
+    "growth": "Medium. Grows through mission fulfillment, but direction may deviate from personal goals",
+    "stability": "Medium-high. Sense of mission provides foundational stability",
+    "bad_year_impact": "Mission feels heavier in bad years but won't collapse",
+    "fit_for": "Mission-driven candidates willing to commit to long-term goals",
+    "hr": {
+      "relationship": "Candidate has natural alignment with company mission — engagement exceeds average",
+      "daily_feel": "Candidate is highly self-motivated; minimal supervision needed",
+      "bad_year_impact": "Mission burden increases but remains stable; low departure risk",
+      "fit_for": "Suited for mission-oriented positions. Note to company: candidate may neglect personal development needs — proactively check in",
+      "placement_risk": "Low. High candidate engagement, but headhunter must ensure salary isn't suppressed by mission drive",
+      "pitch_to_company": "This candidate has natural alignment with your mission — self-driven engagement will exceed the average hire"
+    }
+  },
+  "tai": {
+    "relationship": "Karmic receiver — the company naturally supports and nurtures the candidate",
+    "daily_feel": "Candidate feels valued and developed, settles into the role quickly",
+    "energy_flow_desc": "Company provides slight output; candidate is on the receiving end",
+    "long_term_risk": "Candidate may become over-dependent on company support, reducing self-reliance",
+    "growth": "Medium. Passive growth following the company's rhythm",
+    "stability": "Medium-high. Karmic support exists but full dependence isn't sustainable",
+    "bad_year_impact": "Company provides a buffer; impact is smaller than facing it alone",
+    "fit_for": "Candidates who accept guidance and develop steadily within mature systems",
+    "hr": {
+      "relationship": "Company naturally provides support and resources to the candidate",
+      "daily_feel": "Short adaptation period; candidate gets up to speed quickly",
+      "bad_year_impact": "Company buffer keeps departure risk below average",
+      "fit_for": "Suited for positions with training programs. Note to company: candidate needs guidance — hands-off approach reduces effectiveness",
+      "placement_risk": "Low. Natural interaction, but verify the company actually has training resources",
+      "pitch_to_company": "This candidate will grow rapidly under your development framework — high return on training investment"
+    }
+  },
+  "ei": {
+    "relationship": "Candidate and company invest in each other, forming a positive cycle",
+    "daily_feel": "Giving pays off — positive cycle keeps candidate satisfaction high",
+    "energy_flow_desc": "Candidate invests proactively; company's reciprocation prevents fatigue",
+    "long_term_risk": "If the positive cycle breaks (e.g., manager change), candidate may suddenly feel empty",
+    "growth": "High. Bidirectional elevation — one of the best growth environments",
+    "stability": "Medium-high. Stable while the cycle continues; fades quickly if broken",
+    "bad_year_impact": "Cycle may weaken in bad years but won't reverse into drain",
+    "fit_for": "Candidates willing to give first and believe in mutual benefit",
+    "hr": {
+      "relationship": "Candidate and company form a positive mutual-benefit cycle",
+      "daily_feel": "Both sides elevate each other; candidate satisfaction is high",
+      "bad_year_impact": "Cycle may weaken but won't reverse — low retention risk",
+      "fit_for": "The most ideal long-term placement. Note to company: maintaining feedback mechanisms is key to retaining this candidate",
+      "placement_risk": "Very low. Most stable recommendation; lowest departure probability during guarantee period",
+      "pitch_to_company": "This candidate and your company have strong mutual-benefit potential — both sides will improve over time"
+    }
+  },
+  "shin": {
+    "relationship": "Company invests resources to develop the candidate; candidate is the beneficiary",
+    "daily_feel": "Candidate feels valued and mentored; loyalty builds naturally",
+    "energy_flow_desc": "Company actively invests; candidate receives development",
+    "long_term_risk": "Over-reliance on mentoring may limit independence after leaving",
+    "growth": "High. Mentored growth is fast; internalization is key",
+    "stability": "High. Shin position is a stable beneficiary role; strong retention intent",
+    "bad_year_impact": "Company investment may decrease but won't reverse into drain",
+    "fit_for": "Strong learners who quickly internalize others' experience",
+    "hr": {
+      "relationship": "Company is willing to develop the candidate; candidate's receptivity is high",
+      "daily_feel": "Candidate feels valued; loyalty exceeds average",
+      "bad_year_impact": "Development effect may weaken but won't reverse; retention is stable",
+      "fit_for": "Suited for positions with development budget and intent. Candidate will convert training into output",
+      "placement_risk": "Low. High candidate loyalty; very low risk during guarantee period",
+      "pitch_to_company": "This candidate will convert your training investment into tangible output — high ROI on development"
+    }
+  },
+  "yu": {
+    "relationship": "Candidate is the giver — proactively manages team relationships while company enjoys the atmosphere",
+    "daily_feel": "Candidate proactively invests social energy; fatigue is hard to notice from outside",
+    "energy_flow_desc": "Candidate continuously outputs; company receives. Candidate's exhaustion goes undetected",
+    "long_term_risk": "Social-layer comfort doesn't equal deep satisfaction — candidate may appear happy while internally burning out",
+    "growth": "Medium. Social skills grow but professional depth requires self-effort",
+    "stability": "Medium. Candidate's sense of over-giving accumulates; periodic recharging needed",
+    "bad_year_impact": "Social energy drops in bad years; giving becomes harder",
+    "fit_for": "Socially strong candidates who enjoy building relationships",
+    "hr": {
+      "relationship": "Candidate proactively manages team atmosphere, but drain is hidden",
+      "daily_feel": "Candidate energizes the team, but fatigue isn't visible",
+      "bad_year_impact": "Social energy drops in bad years — watch for burnout signals",
+      "fit_for": "Suited for positions needing team cohesion. Note to company: candidate's contributions need to be seen and reciprocated",
+      "placement_risk": "Medium. Short-term stable, but watch for burnout risk after one year",
+      "pitch_to_company": "This candidate will naturally elevate team atmosphere, but regular positive feedback is recommended"
+    }
+  },
+  "sui": {
+    "relationship": "Candidate is the sui party — company provides resources but candidate is continuously drained",
+    "daily_feel": "Initially feels well-supported by the company; fatigue accumulates after six months",
+    "energy_flow_desc": "Company invests heavily; candidate's returns diminish. Year one is the best",
+    "long_term_risk": "Drained to the point of wanting to leave but unable to — trapped in a burnout cycle",
+    "growth": "High but passive. Company pushes growth; candidate has no say in direction",
+    "stability": "Medium-low. Comfort decreases over time; fatigue accumulates",
+    "bad_year_impact": "Bad year + sui party = double drain; departure risk spikes",
+    "fit_for": "High stress-tolerance candidates with a clear exit timeline",
+    "hr": {
+      "relationship": "Company invests resources but candidate's capacity is limited; long-term drain risk is high",
+      "daily_feel": "Candidate performs well initially but sustainability is limited",
+      "bad_year_impact": "Bad year + sui party = high departure risk",
+      "fit_for": "Suited for positions with clear phase goals. Be honest with company: long-term retention rate is below average",
+      "placement_risk": "Medium-high. May be fine during guarantee period, but one-year departure rate is elevated",
+      "pitch_to_company": "This candidate will perform strongly initially — suggest setting milestone goals to maintain momentum"
+    }
+  },
+  "an": {
+    "relationship": "Candidate leads stability, continuously outputting energy to hold things together",
+    "daily_feel": "Like holding an umbrella — candidate stabilizes the team but drain goes unnoticed",
+    "energy_flow_desc": "Candidate continuously outputs to maintain stability; company gets security from it",
+    "long_term_risk": "An party's continuous output goes unrecognized until burnout hits",
+    "growth": "Medium. Management skills grow but candidate gets locked into the stabilizer role",
+    "stability": "Surface high, actual drain. Stable while candidate is there; collapses if they can't hold on",
+    "bad_year_impact": "Stabilization pressure doubles in bad years — could be the last straw",
+    "fit_for": "Strong managers who set boundaries. Without boundaries, they'll be hollowed out",
+    "hr": {
+      "relationship": "Candidate holds things steady but long-term umbrella-style output risks burnout",
+      "daily_feel": "Candidate stabilizes the team, but their drain is hidden",
+      "bad_year_impact": "Stabilization pressure doubles in bad years; departure or breakdown risk rises",
+      "fit_for": "Suited for teams needing a steady hand. Note to company: distribute the pressure — don't let one person carry all the stability",
+      "placement_risk": "Medium. Short-term stable, but watch for burnout risk after two years",
+      "pitch_to_company": "This candidate will stabilize your team, but avoid concentrating all stability responsibility on one person"
+    }
+  },
+  "kai": {
+    "relationship": "Company continuously extracts energy from the candidate — 'nothing else is bearable'",
+    "daily_feel": "Subtle at first; after six months, nothing feels like enough",
+    "energy_flow_desc": "Company absorbs candidate's stability; one-way energy loss",
+    "long_term_risk": "Very difficult after 2-3 years; total energy depletion",
+    "growth": "Low. All energy is being extracted; no reserves for growth",
+    "stability": "Low. Kai position is the most unstable placement",
+    "bad_year_impact": "Bad year + kai party = potentially career lowest point",
+    "fit_for": "Only viable with strong external support (mentor, side income); otherwise not recommended long-term",
+    "hr": {
+      "relationship": "Company continuously extracts energy from the candidate",
+      "daily_feel": "Candidate starts feeling inadequate after six months; output declines",
+      "bad_year_impact": "Bad year + kai party = departure is almost certain",
+      "fit_for": "Only suitable for short-term projects or consultant roles. Headhunter must disclose long-term retention risk",
+      "placement_risk": "High. Departure intent may emerge within the guarantee period — evaluate carefully",
+      "pitch_to_company": "Candidate is suited for short-term projects; suggest consultant-style engagement to reduce risk for both sides"
+    }
+  },
+  "ki": {
+    "relationship": "Company applies pressure that drives candidate growth — pressure-based interaction",
+    "daily_feel": "Short-term challenge and achievement; long-term fatigue accumulation",
+    "energy_flow_desc": "Company applies pressure; candidate absorbs. Drain isn't low but growth returns exist",
+    "long_term_risk": "Pressure has an upper limit — beyond it, growth turns to harm",
+    "growth": "High but with cost. Pressure-driven growth needs rest periods",
+    "stability": "Medium. Stable pressure is good stimulation; excessive pressure causes collapse",
+    "bad_year_impact": "Bad year pressure may crush rather than push",
+    "fit_for": "High stress-tolerance candidates who thrive on challenge and can self-regulate",
+    "hr": {
+      "relationship": "Company's high-pressure environment drives candidate growth",
+      "daily_feel": "Candidate is active short-term but long-term fatigue needs monitoring",
+      "bad_year_impact": "Bad year pressure may overwhelm the candidate",
+      "fit_for": "Suited for high-pressure, high-reward positions. Note to company: pair with rest mechanisms — don't just apply pressure",
+      "placement_risk": "Medium. How long candidate lasts depends on the company's pressure management",
+      "pitch_to_company": "This candidate performs well under pressure, but we recommend pairing with reasonable rest mechanisms"
+    }
+  },
+  "sei": {
+    "relationship": "Candidate grows through friction with the company; becomes stronger after adjustment",
+    "daily_feel": "Uncomfortable initially; after adaptation, realizes they've become stronger",
+    "energy_flow_desc": "Company's traits refine the candidate; passive strengthening with low drain",
+    "long_term_risk": "Initial adjustment period requires patience; once past, it's stable",
+    "growth": "High. Post-friction growth is solid and lasting",
+    "stability": "High. Sei position is one of the most stable after adjustment",
+    "bad_year_impact": "Friction feeling intensifies in bad years but won't collapse",
+    "fit_for": "Candidates who tolerate initial discomfort for long-term payoff",
+    "hr": {
+      "relationship": "Candidate grows through adjustment; performance stabilizes after adaptation",
+      "daily_feel": "Candidate needs initial adaptation but shows high retention intent afterward",
+      "bad_year_impact": "Friction feeling increases but remains stable; no impact on retention",
+      "fit_for": "Suited for positions requiring long-term development. Note to company: don't rush to judge in the first three months",
+      "placement_risk": "Low. Very stable once past the adjustment period; high long-term retention rate",
+      "pitch_to_company": "This candidate needs a three-month adjustment period, but afterward they'll be your most stable long-term asset"
+    }
+  }
+}
