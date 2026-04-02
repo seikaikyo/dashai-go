@@ -5,12 +5,18 @@ import (
 	"net/http"
 	"strconv"
 
+	"github.com/go-chi/chi/v5"
 	"github.com/seikaikyo/dashai-go/internal/response"
 )
 
 type compatibilityRequest struct {
 	Date1 string `json:"date1"`
 	Date2 string `json:"date2"`
+}
+
+type compatibilityBatchRequest struct {
+	Date1    string                     `json:"date1"`
+	Partners []CompatibilityBatchEntry  `json:"partners"`
 }
 
 func handleMansion(w http.ResponseWriter, r *http.Request) {
@@ -99,6 +105,86 @@ func handleRelation(w http.ResponseWriter, r *http.Request) {
 	}
 
 	response.OK(w, GetRelation(idx1, idx2))
+}
+
+func handleMansionByDate(w http.ResponseWriter, r *http.Request) {
+	dateStr := chi.URLParam(r, "date")
+	if dateStr == "" {
+		response.Err(w, http.StatusBadRequest, "date path param is required")
+		return
+	}
+	bd, err := ParseDate(dateStr)
+	if err != nil {
+		response.Err(w, http.StatusBadRequest, err.Error())
+		return
+	}
+	result := GetMansion(bd)
+
+	// Enrich with personality and keywords
+	idx := result.MansionIndex
+	detail := MansionDetail{
+		Index:       result.Mansion.Index,
+		NameJP:      result.Mansion.NameJP,
+		NameZH:      result.Mansion.Name,
+		Reading:     result.Mansion.Reading,
+		Yosei:       result.Mansion.Yosei,
+		Personality: mansionPersonalities[idx],
+		Keywords:    mansionKeywords[idx],
+		LunarDates:  computeLunarDates(idx),
+	}
+
+	resp := map[string]any{
+		"index":       detail.Index,
+		"name_jp":     detail.NameJP,
+		"name_zh":     detail.NameZH,
+		"reading":     detail.Reading,
+		"yosei":       detail.Yosei,
+		"personality": detail.Personality,
+		"keywords":    detail.Keywords,
+		"lunar_dates": detail.LunarDates,
+		"solar_date":  result.SolarDate,
+		"lunar_date":  result.LunarDate,
+	}
+	response.OK(w, resp)
+}
+
+func handleMansions(w http.ResponseWriter, r *http.Request) {
+	response.OK(w, map[string]any{"mansions": GetAllMansions()})
+}
+
+func handleRelations(w http.ResponseWriter, r *http.Request) {
+	response.OK(w, map[string]any{"relations": GetAllRelationTypes()})
+}
+
+func handleMetadata(w http.ResponseWriter, r *http.Request) {
+	response.OK(w, GetMetadata())
+}
+
+func handleCompatibilityBatch(w http.ResponseWriter, r *http.Request) {
+	var req compatibilityBatchRequest
+	if err := json.NewDecoder(r.Body).Decode(&req); err != nil {
+		response.Err(w, http.StatusBadRequest, err.Error())
+		return
+	}
+	if req.Date1 == "" || len(req.Partners) == 0 {
+		response.Err(w, http.StatusBadRequest, "date1 and partners are required")
+		return
+	}
+	response.OK(w, CompatibilityBatch(req.Date1, req.Partners))
+}
+
+func handleCompatibilityFinder(w http.ResponseWriter, r *http.Request) {
+	dateStr := chi.URLParam(r, "date")
+	if dateStr == "" {
+		response.Err(w, http.StatusBadRequest, "date path param is required")
+		return
+	}
+	result, err := FindCompatibility(dateStr)
+	if err != nil {
+		response.Err(w, http.StatusBadRequest, err.Error())
+		return
+	}
+	response.OK(w, result)
 }
 
 func handleSpecialDay(w http.ResponseWriter, r *http.Request) {

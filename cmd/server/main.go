@@ -88,6 +88,11 @@ func main() {
 			"app":      "DashAI Go Gateway",
 			"version":  version,
 			"services": []string{"/demo", "/factory", "/edge", "/events", "/security", "/shukuyo/engine", "/shukuyo/fortune", "/shukuyo/career", "/shukuyo/user", "/dashboard"},
+				"shukuyo_endpoints": map[string][]string{
+					"engine":  {"/mansion", "/mansion/{date}", "/mansions", "/relations", "/metadata", "/kuyou", "/compatibility", "/compatibility-batch", "/compatibility-finder/{date}", "/relation", "/special-day"},
+					"fortune": {"/daily/{date}", "/weekly/{date}", "/monthly/{year}/{month}", "/yearly/{year}", "/yearly-range", "/lucky-days/summary/{date}", "/lucky-days/calendar/{date}/{year}/{month}", "/lucky-days/pair/{date1}/{date2}", "/calendar/{year}/{month}"},
+					"career":  {"/analyze", "/batch", "/comparison", "/interview-dates", "/team-matrix", "/headhunter/match"},
+				},
 		})
 	})
 

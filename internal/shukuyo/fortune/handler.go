@@ -156,3 +156,110 @@ func handleYearlyRange(w http.ResponseWriter, r *http.Request) {
 
 	response.OK(w, CalculateYearlyRange(birth, startYear, endYear, lang))
 }
+
+func handleLuckyDaysSummary(w http.ResponseWriter, r *http.Request) {
+	birthStr := chi.URLParam(r, "date")
+	lang := r.URL.Query().Get("lang")
+	if lang == "" {
+		lang = "zh-TW"
+	}
+
+	if birthStr == "" {
+		response.Err(w, http.StatusBadRequest, "birth_date path param is required")
+		return
+	}
+
+	result, err := CalculateLuckyDays(birthStr, lang)
+	if err != nil {
+		response.Err(w, http.StatusBadRequest, err.Error())
+		return
+	}
+	response.OK(w, result)
+}
+
+func handleLuckyDaysCalendar(w http.ResponseWriter, r *http.Request) {
+	birthStr := chi.URLParam(r, "date")
+	yearStr := chi.URLParam(r, "year")
+	monthStr := chi.URLParam(r, "month")
+	lang := r.URL.Query().Get("lang")
+	if lang == "" {
+		lang = "zh-TW"
+	}
+
+	if birthStr == "" || yearStr == "" || monthStr == "" {
+		response.Err(w, http.StatusBadRequest, "date, year, month path params are required")
+		return
+	}
+
+	year, err := strconv.Atoi(yearStr)
+	if err != nil {
+		response.Err(w, http.StatusBadRequest, "invalid year")
+		return
+	}
+	month, err := strconv.Atoi(monthStr)
+	if err != nil || month < 1 || month > 12 {
+		response.Err(w, http.StatusBadRequest, "invalid month (1-12)")
+		return
+	}
+
+	result, err := CalculateLuckyCalendar(birthStr, year, month, lang)
+	if err != nil {
+		response.Err(w, http.StatusBadRequest, err.Error())
+		return
+	}
+	response.OK(w, result)
+}
+
+func handleCalendarMonthly(w http.ResponseWriter, r *http.Request) {
+	yearStr := chi.URLParam(r, "year")
+	monthStr := chi.URLParam(r, "month")
+	birthStr := r.URL.Query().Get("birth_date")
+	lang := r.URL.Query().Get("lang")
+	if lang == "" {
+		lang = "zh-TW"
+	}
+
+	if yearStr == "" || monthStr == "" || birthStr == "" {
+		response.Err(w, http.StatusBadRequest, "year, month path and birth_date query are required")
+		return
+	}
+
+	year, err := strconv.Atoi(yearStr)
+	if err != nil {
+		response.Err(w, http.StatusBadRequest, "invalid year")
+		return
+	}
+	month, err := strconv.Atoi(monthStr)
+	if err != nil || month < 1 || month > 12 {
+		response.Err(w, http.StatusBadRequest, "invalid month (1-12)")
+		return
+	}
+
+	result, err := CalculateCalendarMonth(birthStr, year, month, lang)
+	if err != nil {
+		response.Err(w, http.StatusBadRequest, err.Error())
+		return
+	}
+	response.OK(w, result)
+}
+
+func handlePairLuckyDays(w http.ResponseWriter, r *http.Request) {
+	date1 := chi.URLParam(r, "date1")
+	date2 := chi.URLParam(r, "date2")
+	lang := r.URL.Query().Get("lang")
+	if lang == "" {
+		lang = "zh-TW"
+	}
+
+	if date1 == "" || date2 == "" {
+		response.Err(w, http.StatusBadRequest, "date1 and date2 path params are required")
+		return
+	}
+
+	result, err := CalculatePairLuckyDays(date1, date2, lang)
+	if err != nil {
+		response.Err(w, http.StatusBadRequest, err.Error())
+		return
+	}
+	response.OK(w, result)
+}

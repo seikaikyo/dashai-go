@@ -12,5 +12,13 @@ func Router() chi.Router {
 	r.Get("/yearly/{year}", handleYearly)
 	r.Get("/yearly-range", handleYearlyRange)
 
+	// Lucky days
+	r.Get("/lucky-days/summary/{date}", handleLuckyDaysSummary)
+	r.Get("/lucky-days/calendar/{date}/{year}/{month}", handleLuckyDaysCalendar)
+	r.Get("/lucky-days/pair/{date1}/{date2}", handlePairLuckyDays)
+
+	// Calendar
+	r.Get("/calendar/{year}/{month}", handleCalendarMonthly)
+
 	return r
 }
