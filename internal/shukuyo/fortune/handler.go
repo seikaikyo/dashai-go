@@ -1,6 +1,7 @@
 package fortune
 
 import (
+	"encoding/json"
 	"net/http"
 	"strconv"
 
@@ -236,6 +237,49 @@ func handleCalendarMonthly(w http.ResponseWriter, r *http.Request) {
 	}
 
 	result, err := CalculateCalendarMonth(birthStr, year, month, lang)
+	if err != nil {
+		response.Err(w, http.StatusBadRequest, err.Error())
+		return
+	}
+	response.OK(w, result)
+}
+
+func handleStartupIndustry(w http.ResponseWriter, r *http.Request) {
+	dateStr := chi.URLParam(r, "date")
+	lang := r.URL.Query().Get("lang")
+	if lang == "" {
+		lang = "zh-TW"
+	}
+	if dateStr == "" {
+		response.Err(w, http.StatusBadRequest, "date path param is required")
+		return
+	}
+	result, err := CalculateIndustryRecommendation(dateStr, lang)
+	if err != nil {
+		response.Err(w, http.StatusBadRequest, err.Error())
+		return
+	}
+	response.OK(w, result)
+}
+
+func handleCareerLuckyDates(w http.ResponseWriter, r *http.Request) {
+	var req struct {
+		BirthDate string `json:"birth_date"`
+		Days      int    `json:"days"`
+		Lang      string `json:"lang"`
+	}
+	if err := json.NewDecoder(r.Body).Decode(&req); err != nil {
+		response.Err(w, http.StatusBadRequest, "invalid request body: "+err.Error())
+		return
+	}
+	if req.BirthDate == "" {
+		response.Err(w, http.StatusBadRequest, "birth_date is required")
+		return
+	}
+	if req.Lang == "" {
+		req.Lang = "zh-TW"
+	}
+	result, err := CalculateCareerLuckyDates(req.BirthDate, req.Days, req.Lang)
 	if err != nil {
 		response.Err(w, http.StatusBadRequest, err.Error())
 		return

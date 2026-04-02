@@ -12,6 +12,8 @@ func Router() chi.Router {
 	r.Post("/interview-dates", handleInterviewDates)
 	r.Post("/team-matrix", handleTeamMatrix)
 	r.Post("/headhunter/match", handleHeadhunterMatch)
+	r.Post("/104/company-jobs", handle104Jobs)
+	r.Post("/company-search", handleCompanySearch)
 
 	return r
 }

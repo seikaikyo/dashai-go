@@ -20,5 +20,11 @@ func Router() chi.Router {
 	// Calendar
 	r.Get("/calendar/{year}/{month}", handleCalendarMonthly)
 
+	// Career lucky dates
+	r.Post("/lucky-dates", handleCareerLuckyDates)
+
+	// Startup
+	r.Get("/startup/industry/{date}", handleStartupIndustry)
+
 	return r
 }

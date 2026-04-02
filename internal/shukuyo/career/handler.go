@@ -118,6 +118,53 @@ func handleTeamMatrix(w http.ResponseWriter, r *http.Request) {
 	response.OK(w, result)
 }
 
+func handle104Jobs(w http.ResponseWriter, r *http.Request) {
+	var req struct {
+		CompanyName  string `json:"company_name"`
+		FoundingDate string `json:"founding_date"`
+		BirthDate    string `json:"birth_date"`
+		Lang         string `json:"lang"`
+	}
+	if err := json.NewDecoder(r.Body).Decode(&req); err != nil {
+		response.Err(w, http.StatusBadRequest, "invalid request body: "+err.Error())
+		return
+	}
+	if req.CompanyName == "" {
+		response.Err(w, http.StatusBadRequest, "company_name is required")
+		return
+	}
+
+	result, err := Search104Jobs(req.CompanyName, req.BirthDate, req.Lang)
+	if err != nil {
+		response.Err(w, http.StatusBadGateway, err.Error())
+		return
+	}
+	response.OK(w, result)
+}
+
+func handleCompanySearch(w http.ResponseWriter, r *http.Request) {
+	var req struct {
+		CompanyName string `json:"company_name"`
+		Country     string `json:"country"`
+		BirthDate   string `json:"birth_date"`
+	}
+	if err := json.NewDecoder(r.Body).Decode(&req); err != nil {
+		response.Err(w, http.StatusBadRequest, "invalid request body: "+err.Error())
+		return
+	}
+	if req.CompanyName == "" || req.Country == "" {
+		response.Err(w, http.StatusBadRequest, "company_name and country are required")
+		return
+	}
+
+	result, err := SearchGlobal(req.CompanyName, req.Country, req.BirthDate)
+	if err != nil {
+		response.Err(w, http.StatusBadGateway, err.Error())
+		return
+	}
+	response.OK(w, result)
+}
+
 func handleHeadhunterMatch(w http.ResponseWriter, r *http.Request) {
 	var req HeadhunterMatchRequest
 	if err := json.NewDecoder(r.Body).Decode(&req); err != nil {
