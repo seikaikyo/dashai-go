@@ -3,6 +3,7 @@ module github.com/seikaikyo/dashai-go
 go 1.26.1
 
 require (
+	github.com/6tail/lunar-go v1.4.6
 	github.com/dashfactory/go-factory-io v1.0.0
 	github.com/go-chi/chi/v5 v5.2.5
 	github.com/go-chi/cors v1.2.2

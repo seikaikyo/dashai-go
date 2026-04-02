@@ -22,6 +22,7 @@ import (
 	"github.com/seikaikyo/dashai-go/internal/middleware"
 	"github.com/seikaikyo/dashai-go/internal/response"
 	"github.com/seikaikyo/dashai-go/internal/security"
+	"github.com/seikaikyo/dashai-go/internal/shukuyo/engine"
 	"github.com/seikaikyo/dashai-go/internal/web"
 )
 
@@ -83,7 +84,7 @@ func main() {
 		response.OK(w, map[string]any{
 			"app":      "DashAI Go Gateway",
 			"version":  version,
-			"services": []string{"/demo", "/factory", "/edge", "/events", "/security", "/dashboard"},
+			"services": []string{"/demo", "/factory", "/edge", "/events", "/security", "/shukuyo/engine", "/dashboard"},
 		})
 	})
 
@@ -99,6 +100,9 @@ func main() {
 
 	// OT security scan report aggregation
 	r.Mount("/security", security.Router(db))
+
+	// Shukuyo engine (pure computation, no DB)
+	r.Mount("/shukuyo/engine", engine.Router())
 
 	// Embedded dashboard UI
 	r.Mount("/dashboard", http.StripPrefix("/dashboard", web.Handler()))
