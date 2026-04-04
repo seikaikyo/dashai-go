@@ -206,8 +206,10 @@ func enrichKuyouStar(star engine.KuyouStar, kuyouI18n map[string]any) KuyouStarE
 	}
 
 	// Level from index
-	kuyouLevels := [9]string{"kyo", "shokyo", "kichi", "daikichi", "kyo", "daikichi", "kichi", "shokyo", "kichi"}
-	kuyouFortuneNames := [9]string{"大凶", "半吉", "末吉", "大吉", "大凶", "大吉", "吉", "半吉", "末吉"}
+	// 九曜流年等級 — 寺院傳承（放生寺/大聖院/岡寺）
+	// Index: 0=羅喉 1=土 2=水 3=金 4=日 5=火 6=計都 7=月 8=木
+	kuyouLevels := [9]string{"kyo", "shokyo", "shokyo", "shokyo", "daikichi", "kyo", "kyo", "daikichi", "daikichi"}
+	kuyouFortuneNames := [9]string{"大凶", "半吉", "末吉", "半吉", "大吉", "大凶", "大凶", "大吉", "大吉"}
 	if star.Index >= 0 && star.Index < 9 {
 		enriched.Level = kuyouLevels[star.Index]
 		enriched.FortuneName = kuyouFortuneNames[star.Index]
